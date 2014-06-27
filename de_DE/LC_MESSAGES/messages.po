@@ -1,0 +1,4713 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCart 1.0\n"
+"Report-Msgid-Bugs-To: cristian@wente.dk\n"
+"POT-Creation-Date: 2014-06-27 05:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. language.php:code
+msgid "en"
+msgstr "de"
+
+#. language.php:direction
+msgid "ltr"
+msgstr "ltr"
+
+#. language.php:date_format_short
+msgid "d/m/Y"
+msgstr "d.m.Y"
+
+#. language.php:date_format_long
+msgid "l dS F Y"
+msgstr "l d. F Y"
+
+#. language.php:time_format
+msgid "h:i:s A"
+msgstr "h:i:s"
+
+#. language.php:datetime_format
+msgid "d/m/Y H:i:s"
+msgstr ""
+
+#. language.php:decimal_point
+msgid "."
+msgstr ","
+
+#. language.php:thousand_point
+msgid ","
+msgstr "."
+
+#. language.php:text_home
+msgid "<i class=\"fa fa-home\"></i>"
+msgstr "Start"
+
+#. language.php:text_yes
+msgid "Yes"
+msgstr "Ja"
+
+#. language.php:text_no
+msgid "No"
+msgstr "Nein"
+
+#. language.php:text_none
+msgid " --- None --- "
+msgstr " --- Keine --- "
+
+#. language.php:text_select
+msgid " --- Please Select --- "
+msgstr " --- Bitte wählen --- "
+
+#. language.php:text_all_zones
+msgid "All Zones"
+msgstr "Alle Zonen"
+
+#. language.php:text_pagination
+#, possible-php-format
+msgid "Showing %d to %d of %d (%d Pages)"
+msgstr ""
+
+#. language.php:text_loading
+msgid "Loading..."
+msgstr ""
+
+#. language.php:button_address_add
+msgid "Add Address"
+msgstr ""
+
+#. language.php:button_back
+#. payment/amazon_checkout.php:text_back
+msgid "Back"
+msgstr "Zurück"
+
+#. language.php:button_continue
+#. payment/amazon_checkout.php:text_continue
+#. payment/firstdata.php:button_confirm
+#. payment/pp_express.php:button_continue
+#. account/recurring.php:button_continue
+msgid "Continue"
+msgstr "Weiter"
+
+#. language.php:button_cart
+msgid "Add to Cart"
+msgstr "+ Warenkorb"
+
+#. language.php:button_cancel
+msgid "Cancel"
+msgstr ""
+
+#. language.php:button_compare
+msgid "Compare this Product"
+msgstr "+ Produktvergleich"
+
+#. language.php:button_wishlist
+msgid "Add to Wish List"
+msgstr "+ Wunschliste"
+
+#. language.php:button_checkout
+#. payment/paymate.php:text_checkout
+#. information/sitemap.php:text_checkout
+#. checkout/checkout.php:heading_title
+#. checkout/failure.php:text_checkout
+#. checkout/success.php:text_checkout
+#. common/cart.php:text_checkout
+#. common/header.php:text_checkout
+msgid "Checkout"
+msgstr "Kasse"
+
+#. language.php:button_confirm
+msgid "Confirm Order"
+msgstr "Kostenpflichtig Kaufen"
+
+#. language.php:button_coupon
+msgid "Apply Coupon"
+msgstr "Gutschein einlösen"
+
+#. language.php:button_delete
+msgid "Delete"
+msgstr "Löschen"
+
+#. language.php:button_download
+msgid "Download"
+msgstr "Download"
+
+#. language.php:button_edit
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. language.php:button_filter
+#. product/category.php:text_refine
+#. module/filter.php:heading_title
+msgid "Refine Search"
+msgstr "Suche verfeinern"
+
+#. language.php:button_new_address
+msgid "New Address"
+msgstr "Neue Adresse"
+
+#. language.php:button_change_address
+msgid "Change Address"
+msgstr "Adresse ändern"
+
+#. language.php:button_reviews
+msgid "Reviews"
+msgstr "Beurteilungen"
+
+#. language.php:button_write
+msgid "Write Review"
+msgstr "Neue Beurteilung"
+
+#. language.php:button_login
+#. module/account.php:text_login
+#. module/affiliate.php:text_login
+#. affiliate/login.php:text_login
+#. account/login.php:text_login
+msgid "Login"
+msgstr "Anmelden"
+
+#. language.php:button_update
+msgid "Update"
+msgstr "Aktualisieren"
+
+#. language.php:button_remove
+msgid "Remove"
+msgstr "Entfernen"
+
+#. language.php:button_reorder
+msgid "Reorder"
+msgstr "Nochmal bestellen"
+
+#. language.php:button_return
+#. account/recurring.php:button_return
+msgid "Return"
+msgstr "Retour senden"
+
+#. language.php:button_shopping
+msgid "Continue Shopping"
+msgstr "Einkauf fortsetzen"
+
+#. language.php:button_search
+#. product/product.php:text_search
+#. product/search.php:heading_title
+#. information/sitemap.php:text_search
+#. common/header.php:text_search
+#. common/search.php:text_search
+msgid "Search"
+msgstr "Suche"
+
+#. language.php:button_shipping
+msgid "Apply Shipping"
+msgstr "Versandart anwenden"
+
+#. language.php:button_guest
+#. checkout/checkout.php:text_guest
+msgid "Guest Checkout"
+msgstr "Direktbestellung"
+
+#. language.php:button_view
+#. account/recurring.php:button_view
+msgid "View"
+msgstr "Ansicht"
+
+#. language.php:button_voucher
+msgid "Apply Voucher"
+msgstr "Geschenkgutschein einlösen"
+
+#. language.php:button_upload
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#. language.php:button_reward
+msgid "Apply Points"
+msgstr "Punkte anwenden"
+
+#. language.php:button_quote
+msgid "Get Quotes"
+msgstr "Fracht berechnen"
+
+#. language.php:button_list
+msgid "List"
+msgstr ""
+
+#. language.php:button_grid
+msgid "Grid"
+msgstr ""
+
+#. language.php:button_map
+msgid "View Google Map"
+msgstr ""
+
+#. language.php:error_exception
+#, possible-php-format
+msgid "Error Code(%s): %s in %s on line %s"
+msgstr ""
+
+#. language.php:error_upload_1
+msgid ""
+"Warning: The uploaded file exceeds the upload_max_filesize directive in php."
+"ini!"
+msgstr "(1) Datei überschreitet die zulässige Dateigröße!"
+
+#. language.php:error_upload_2
+msgid ""
+"Warning: The uploaded file exceeds the MAX_FILE_SIZE directive that was "
+"specified in the HTML form!"
+msgstr "(2) Datei überschreitet die zulässige Dateigröße!"
+
+#. language.php:error_upload_3
+msgid "Warning: The uploaded file was only partially uploaded!"
+msgstr "Datei wurde nur teilweise hochgeladen!"
+
+#. language.php:error_upload_4
+msgid "Warning: No file was uploaded!"
+msgstr "Es wurde keine Datei hochgeladen!"
+
+#. language.php:error_upload_6
+msgid "Warning: Missing a temporary folder!"
+msgstr "Fehler mit temporärem Verzeichnis!"
+
+#. language.php:error_upload_7
+msgid "Warning: Failed to write file to disk!"
+msgstr "Fehler beim Schreiben der Datei!"
+
+#. language.php:error_upload_8
+msgid "Warning: File upload stopped by extension!"
+msgstr "Der Ladevorgang wurde wegen Zeitüberschreitung gestoppt!"
+
+#. language.php:error_upload_999
+msgid "Warning: No error code available!"
+msgstr "Unbekannter Fehler!"
+
+#. payment/amazon_checkout.php:heading_title
+#. payment/amazon_checkout.php:text_cba
+msgid "Amazon Payments"
+msgstr "Bezahlen mit Amazon"
+
+#. payment/amazon_checkout.php:heading_address
+msgid "Please choose a delivery address"
+msgstr "Bitte eine Lieferadresse wählen"
+
+#. payment/amazon_checkout.php:heading_payment
+#. payment/amazon_checkout.php:error_payment_method
+msgid "Please select a payment method"
+msgstr "Bitte eine Zahlungsart wählen"
+
+#. payment/amazon_checkout.php:heading_confirm
+msgid "Order summary"
+msgstr "Bestellübersicht"
+
+#. payment/amazon_checkout.php:text_cart
+msgid "Cart"
+msgstr "Warenkorb"
+
+#. payment/amazon_checkout.php:text_confirm
+#. payment/pp_express.php:express_button_confirm
+#. payment/realex.php:button_confirm
+msgid "Confirm"
+msgstr "Kostenpflichtig bestellen"
+
+#. payment/amazon_checkout.php:text_enter_coupon
+msgid "Enter your coupon code here. If you don't have one, leave it empty."
+msgstr "Hier Gutscheincode (wenn vorhanden) angeben."
+
+#. payment/amazon_checkout.php:text_coupon
+msgid "Coupon"
+msgstr "Gutschein"
+
+#. payment/amazon_checkout.php:text_tax_other
+msgid "Taxes / Other handling fees"
+msgstr "Steuern / oder weitere Gebühren"
+
+#. payment/amazon_checkout.php:text_payment_failed
+msgid ""
+"Your payment has failed. Please contact the shop administrator for "
+"assistance or use a different payment option."
+msgstr "Die Zahlung ist fehlgeschlagen. Entweder die Shopverwaltung für Hilfe kontaktieren oder andere Zahlungsart verwenden."
+
+#. payment/amazon_checkout.php:text_success_title
+#. checkout/success.php:heading_title
+msgid "Your Order Has Been Processed!"
+msgstr "Bestellung erfolgreich entgegengenommen!"
+
+#. payment/amazon_checkout.php:text_payment_success
+msgid "Your order was successfully placed. Order details are below"
+msgstr "Bestellung wurde erfolgreich aufgenommen, Einzelheiten siehe unten"
+
+#. payment/amazon_checkout.php:error_shipping
+msgid "Please select a shipping method"
+msgstr "Bitte eine Versandart wählen"
+
+#. payment/amazon_checkout.php:error_shipping_address
+msgid "Please select a delivery address"
+msgstr "Bitte eine Lieferadresse wählen"
+
+#. payment/amazon_checkout.php:error_shipping_methods
+msgid ""
+"There was an error retrieving your address from Amazon. Please contact the "
+"shop administrator for help"
+msgstr "Leider gab es einen Fehler die Adresse von Amazon zu holen. Bitte die Shopverwaltung für weitere Hilfe kontaktieren."
+
+#. payment/amazon_checkout.php:error_no_shipping_methods
+msgid ""
+"There are no shipping options to the selected address. Please select a "
+"different shipping address"
+msgstr "Zu dieser Adresse gibt es keine Versandarten - bitte eine andere Adresse wählen."
+
+#. payment/authorizenet_aim.php:text_title
+#. payment/authorizenet_sim.php:text_title
+msgid "Credit Card / Debit Card (Authorize.Net)"
+msgstr "Kreditkartenzahlung (Authorize.Net)"
+
+#. payment/authorizenet_aim.php:text_credit_card
+#. payment/firstdata_remote.php:text_credit_card
+#. payment/perpetual_payments.php:text_credit_card
+#. payment/pp_payflow.php:text_credit_card
+#. payment/pp_pro.php:text_credit_card
+#. payment/realex_remote.php:text_credit_card
+#. payment/sagepay_us.php:text_credit_card
+#. payment/web_payment_software.php:text_credit_card
+msgid "Credit Card Details"
+msgstr "Kreditkartendetails"
+
+#. payment/authorizenet_aim.php:entry_cc_owner
+#. payment/sagepay_direct.php:entry_cc_owner
+#. payment/sagepay_us.php:entry_cc_owner
+#. payment/web_payment_software.php:entry_cc_owner
+msgid "Card Owner"
+msgstr "Karteninhaber"
+
+#. payment/authorizenet_aim.php:entry_cc_number
+#. payment/perpetual_payments.php:entry_cc_number
+#. payment/pp_pro.php:entry_cc_number
+#. payment/sagepay_direct.php:entry_cc_number
+#. payment/sagepay_us.php:entry_cc_number
+#. payment/web_payment_software.php:entry_cc_number
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#. payment/authorizenet_aim.php:entry_cc_expire_date
+#. payment/perpetual_payments.php:entry_cc_expire_date
+#. payment/pp_pro.php:entry_cc_expire_date
+#. payment/sagepay_direct.php:entry_cc_expire_date
+#. payment/sagepay_us.php:entry_cc_expire_date
+#. payment/web_payment_software.php:entry_cc_expire_date
+msgid "Card Expiry Date"
+msgstr "Karte gültig bis"
+
+#. payment/authorizenet_aim.php:entry_cc_cvv2
+#. payment/perpetual_payments.php:entry_cc_cvv2
+#. payment/pp_pro.php:entry_cc_cvv2
+#. payment/sagepay_direct.php:entry_cc_cvv2
+#. payment/sagepay_us.php:entry_cc_cvv2
+#. payment/web_payment_software.php:entry_cc_cvv2
+msgid "Card Security Code (CVV2)"
+msgstr "Prüfziffer (CVV2)"
+
+#. payment/bank_transfer.php:text_title
+#. affiliate/payment.php:text_bank
+#. affiliate/register.php:text_bank
+msgid "Bank Transfer"
+msgstr "Überweisung"
+
+#. payment/bank_transfer.php:text_instruction
+msgid "Bank Transfer Instructions"
+msgstr "Bitte angezeigten Gesamtbetrag auf nachstehendes Bankkonto überweisen."
+
+#. payment/bank_transfer.php:text_description
+msgid "Please transfer the total amount to the following bank account."
+msgstr "Die Bestellung wird nach erfolgtem Zahlungseingang versendet."
+
+#. payment/bank_transfer.php:text_payment
+#. payment/cheque.php:text_payment
+msgid "Your order will not ship until we receive payment."
+msgstr "Banküberweisung"
+
+#. payment/cheque.php:text_title
+msgid "Cheque / Money Order"
+msgstr "Scheck"
+
+#. payment/cheque.php:text_instruction
+msgid "Cheque / Money Order Instructions"
+msgstr "Bezahlung per Scheck"
+
+#. payment/cheque.php:text_payable
+msgid "Make Payable To: "
+msgstr "Zahlbar an "
+
+#. payment/cheque.php:text_address
+msgid "Send To: "
+msgstr "Sende an"
+
+#. payment/cod.php:text_title
+msgid "Cash On Delivery"
+msgstr "Nachnahme"
+
+#. payment/firstdata.php:text_title
+msgid "Credit / Debit card (First Data)"
+msgstr ""
+
+#. payment/firstdata.php:text_new_card
+#. payment/firstdata_remote.php:text_card_new
+msgid "New card"
+msgstr ""
+
+#. payment/firstdata.php:text_store_card
+msgid "Remember my card details"
+msgstr ""
+
+#. payment/firstdata.php:text_address_response
+#. payment/firstdata_remote.php:text_avs
+msgid "Address verification: "
+msgstr ""
+
+#. payment/firstdata.php:text_address_ppx
+#. payment/firstdata_remote.php:text_address_ppx
+msgid "No address data provided or Address not checked by the Card Issuer"
+msgstr ""
+
+#. payment/firstdata.php:text_address_yyy
+#. payment/firstdata_remote.php:text_address_yyy
+msgid "Card Issuer confirmed that street and postcode match with their records"
+msgstr ""
+
+#. payment/firstdata.php:text_address_yna
+#. payment/firstdata_remote.php:text_address_yna
+msgid ""
+"Card Issuer confirmed that street matches with their records but postcode "
+"does not match"
+msgstr ""
+
+#. payment/firstdata.php:text_address_nyz
+#. payment/firstdata_remote.php:text_address_nyz
+msgid ""
+"Card Issuer confirmed that postcode matches with their records but street "
+"does not match"
+msgstr ""
+
+#. payment/firstdata.php:text_address_nnn
+#. payment/firstdata_remote.php:text_address_nnn
+msgid "Both street and postcode do not match with the Card Issuer records"
+msgstr ""
+
+#. payment/firstdata.php:text_address_ypx
+#. payment/firstdata_remote.php:text_address_ypx
+msgid ""
+"Card Issuer confirmed that street matches with their records. The Issuer did "
+"not check the postcode"
+msgstr ""
+
+#. payment/firstdata.php:text_address_pyx
+#. payment/firstdata_remote.php:text_address_pyx
+msgid ""
+"Card Issuer confirmed that postcode matches with their records. The Issuer "
+"did not check the street"
+msgstr ""
+
+#. payment/firstdata.php:text_address_xxu
+#. payment/firstdata_remote.php:text_address_xxu
+msgid "Card Issuer did not check the AVS information"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_verify
+#. payment/firstdata_remote.php:text_card_code_verify
+msgid "Security code: "
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_m
+#. payment/firstdata_remote.php:text_card_code_m
+msgid "Card security code match"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_n
+#. payment/firstdata_remote.php:text_card_code_n
+msgid "Card security code does not match"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_p
+#. payment/firstdata_remote.php:text_card_code_p
+msgid "Not processed"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_s
+#. payment/firstdata_remote.php:text_card_code_s
+msgid ""
+"Merchant has indicated that the card security code is not present on the card"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_u
+#. payment/firstdata_remote.php:text_card_code_u
+msgid "Issuer is not certified and/or has not provided encryption keys"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_x
+#. payment/firstdata_remote.php:text_card_code_x
+msgid "No response from the credit card association was received"
+msgstr ""
+
+#. payment/firstdata.php:text_card_code_blank
+#. payment/firstdata_remote.php:text_card_code_blank
+msgid ""
+"A blank response should indicate that no code was sent and that there was no "
+"indication that the code was not present on the card . "
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_m
+#. payment/firstdata_remote.php:text_card_type_m
+#. payment/realex.php:text_card_mc
+#. payment/realex_remote.php:text_card_mc
+msgid "Mastercard"
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_v
+#. payment/firstdata_remote.php:text_card_type_v
+msgid "Visa (Credit/Debit/Electron/Delta)"
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_c
+#. payment/firstdata_remote.php:text_card_type_c
+#. payment/realex.php:text_card_diners
+#. payment/realex_remote.php:text_card_diners
+msgid "Diners"
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_a
+#. payment/firstdata_remote.php:text_card_type_a
+#. payment/realex.php:text_card_amex
+#. payment/realex_remote.php:text_card_amex
+msgid "American Express"
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_ma
+#. payment/firstdata_remote.php:text_card_type_ma
+msgid "Maestro"
+msgstr ""
+
+#. payment/firstdata.php:text_card_type_mauk
+msgid "Maestro UK/Solo"
+msgstr ""
+
+#. payment/firstdata.php:text_response_code_full
+#. payment/firstdata_remote.php:text_approval_code
+msgid "Approval code: "
+msgstr ""
+
+#. payment/firstdata.php:text_response_code
+msgid "Full response code: "
+msgstr ""
+
+#. payment/firstdata.php:text_response_card
+msgid "Card used: "
+msgstr ""
+
+#. payment/firstdata.php:text_response_card_type
+msgid "Card type: "
+msgstr ""
+
+#. payment/firstdata.php:text_response_proc_code
+#. payment/firstdata_remote.php:text_response_proc_code
+msgid "Processor code: "
+msgstr ""
+
+#. payment/firstdata.php:text_response_ref
+#. payment/firstdata_remote.php:text_response_ref
+msgid "Ref number: "
+msgstr ""
+
+#. payment/firstdata.php:error_failed
+msgid "Unable to process your payment, please try again"
+msgstr ""
+
+#. payment/firstdata_remote.php:text_title
+#. payment/pp_payflow_iframe.php:text_title
+#. payment/pp_pro_iframe.php:text_title
+#. payment/realex_remote.php:text_title
+msgid "Credit or Debit Card"
+msgstr "Bezahlen mit Kredit- oder Treuekarte PAYFLOW"
+
+#. payment/firstdata_remote.php:text_wait
+#. payment/pp_payflow.php:text_wait
+#. payment/pp_pro.php:text_wait
+#. payment/realex_remote.php:text_wait
+msgid "Please wait!"
+msgstr "Bitte warten!"
+
+#. payment/firstdata_remote.php:entry_cc_number
+#. payment/realex.php:text_card_digits
+#. payment/realex_remote.php:entry_cc_number
+msgid "Card number"
+msgstr ""
+
+#. payment/firstdata_remote.php:entry_cc_name
+#. payment/realex_remote.php:entry_cc_name
+msgid "Cardholder name"
+msgstr ""
+
+#. payment/firstdata_remote.php:entry_cc_expire_date
+#. payment/realex_remote.php:entry_cc_expire_date
+msgid "Card expiry date"
+msgstr ""
+
+#. payment/firstdata_remote.php:entry_cc_cvv2
+#. payment/realex_remote.php:entry_cc_cvv2
+msgid "Card security code (CVV2)"
+msgstr ""
+
+#. payment/firstdata_remote.php:help_start_date
+#. payment/perpetual_payments.php:help_start_date
+#. payment/pp_payflow.php:text_start_date
+#. payment/pp_pro.php:help_start_date
+#. payment/realex_remote.php:help_start_date
+#. payment/sagepay_direct.php:help_start_date
+msgid "(if available)"
+msgstr ""
+
+#. payment/firstdata_remote.php:help_issue
+#. payment/perpetual_payments.php:help_issue
+#. payment/pp_payflow.php:text_issue
+#. payment/pp_pro.php:help_issue
+#. payment/realex_remote.php:help_issue
+#. payment/sagepay_direct.php:help_issue
+msgid "(for Maestro and Solo cards only)"
+msgstr ""
+
+#. payment/firstdata_remote.php:text_result
+msgid "Result: "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_reference_number
+#. account/recurring.php:text_ref
+msgid "Reference: "
+msgstr "Referenz "
+
+#. payment/firstdata_remote.php:text_card_number_ref
+msgid "Card last 4 digits: xxxx "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_card_brand
+msgid "Card brand: "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_response_code
+msgid "Response code: "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_fault
+msgid "Fault message: "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_error
+msgid "Error message: "
+msgstr ""
+
+#. payment/firstdata_remote.php:text_card_accepted
+msgid "Accepted cards: "
+msgstr ""
+
+#. payment/firstdata_remote.php:error_card_number
+#. payment/realex_remote.php:error_card_number
+msgid "Please check your card number is valid"
+msgstr ""
+
+#. payment/firstdata_remote.php:error_card_name
+#. payment/realex_remote.php:error_card_name
+msgid "Please check the card holder name is valid"
+msgstr ""
+
+#. payment/firstdata_remote.php:error_card_cvv
+#. payment/realex_remote.php:error_card_cvv
+msgid "Please check the CVV2 is valid"
+msgstr ""
+
+#. payment/firstdata_remote.php:error_failed
+msgid "Unable to process your payment, please contact the merchant"
+msgstr ""
+
+#. payment/free_checkout.php:text_title
+msgid "Free Checkout"
+msgstr "Kostenfrei bestellen"
+
+#. payment/klarna_account.php:text_title
+#, possible-php-format
+msgid "Klarna Account - Pay from %s/month"
+msgstr ""
+
+#. payment/klarna_account.php:text_terms
+#, possible-php-format
+msgid ""
+"<span id=\"klarna_account_toc\"></span><script type=\"text/javascript\">var "
+"terms = new Klarna.Terms.Account({el: 'klarna_account_toc', eid: '%s', "
+"country: '%s'});</script>"
+msgstr ""
+
+#. payment/klarna_account.php:text_information
+msgid "Klarna Account Information"
+msgstr "Klarna Kontoinformation"
+
+#. payment/klarna_account.php:text_additional
+msgid ""
+"Klarna Account requires some additional information before they can proccess "
+"your order."
+msgstr "Klarna benötigt weitere Infos bevor die Bestellung bearbeitet werden kann."
+
+#. payment/klarna_account.php:text_male
+#. payment/klarna_invoice.php:text_male
+msgid "Male"
+msgstr "Mann"
+
+#. payment/klarna_account.php:text_female
+#. payment/klarna_invoice.php:text_female
+msgid "Female"
+msgstr "Frau"
+
+#. payment/klarna_account.php:text_year
+#. payment/klarna_invoice.php:text_year
+msgid "Year"
+msgstr "Jahr"
+
+#. payment/klarna_account.php:text_month
+#. payment/klarna_invoice.php:text_month
+msgid "Month"
+msgstr "Monat"
+
+#. payment/klarna_account.php:text_day
+#. payment/klarna_invoice.php:text_day
+msgid "Day"
+msgstr "Tag"
+
+#. payment/klarna_account.php:text_payment_option
+msgid "Payment options"
+msgstr "Zahlungsoptionen"
+
+#. payment/klarna_account.php:text_single_payment
+msgid "Single Payment"
+msgstr "Einmalzahlung"
+
+#. payment/klarna_account.php:text_monthly_payment
+#, possible-php-format
+msgid "%s - %s per month"
+msgstr ""
+
+#. payment/klarna_account.php:text_comment
+#, possible-php-format
+msgid ""
+"Klarna's Invoice ID: %s\n"
+"%s/%s: %.4f"
+msgstr ""
+
+#. payment/klarna_account.php:entry_gender
+#. payment/klarna_invoice.php:entry_gender
+msgid "Gender"
+msgstr "Geschlecht"
+
+#. payment/klarna_account.php:entry_pno
+#. payment/klarna_invoice.php:entry_pno
+msgid "Personal Number"
+msgstr "Sozialversicherungsnr.<span class=\"help\">Bitte hier die Sozialversicherungsnummer angeben</span>"
+
+#. payment/klarna_account.php:entry_dob
+#. payment/klarna_invoice.php:entry_dob
+msgid "Date of Birth"
+msgstr "Geburtsdatum"
+
+#. payment/klarna_account.php:entry_phone_no
+#. payment/klarna_invoice.php:entry_phone_no
+msgid "Phone number"
+msgstr "Telefonnummer<span class=\"help\">Bitte hier die Telefonnummer angeben</span>"
+
+#. payment/klarna_account.php:entry_street
+#. payment/klarna_invoice.php:entry_street
+msgid "Street"
+msgstr "Straße<span class=\"help\">Bitte beachten: die Lieferung kann nur an eine exixtierende Adresse erfolgen!</span>"
+
+#. payment/klarna_account.php:entry_house_no
+#. payment/klarna_invoice.php:entry_house_no
+msgid "House No."
+msgstr "Hausnummer"
+
+#. payment/klarna_account.php:entry_house_ext
+#. payment/klarna_invoice.php:entry_house_ext
+msgid "House Ext."
+msgstr "Zusatz<span class=\"help\">Falls die Hausnummer einen Zusatz hat (z.B. A, B, C, usw.)</span>"
+
+#. payment/klarna_account.php:entry_company
+#. payment/klarna_invoice.php:entry_company
+msgid "Company Registration Number"
+msgstr "Firmennummer<span class=\"help\">Bitte hier die Firmennummer angeben</span>"
+
+#. payment/klarna_account.php:help_pno
+#. payment/klarna_invoice.php:help_pno
+msgid "Please enter your Social Security number here."
+msgstr ""
+
+#. payment/klarna_account.php:help_phone_no
+#. payment/klarna_invoice.php:help_phone_no
+msgid "Please enter your phone number."
+msgstr ""
+
+#. payment/klarna_account.php:help_street
+#. payment/klarna_invoice.php:help_street
+msgid ""
+"Please note that delivery can only take place to the registered address when "
+"paying with Klarna."
+msgstr ""
+
+#. payment/klarna_account.php:help_house_no
+#. payment/klarna_invoice.php:help_house_no
+msgid "Please enter your house number."
+msgstr ""
+
+#. payment/klarna_account.php:help_house_ext
+#. payment/klarna_invoice.php:help_house_ext
+msgid "Please submit your house extension here. E.g. A, B, C, Red, Blue ect."
+msgstr ""
+
+#. payment/klarna_account.php:help_company
+#. payment/klarna_invoice.php:help_company
+msgid "Please enter your Company's registration number"
+msgstr ""
+
+#. payment/klarna_account.php:error_deu_terms
+#. payment/klarna_invoice.php:error_deu_terms
+msgid "You must agree to Klarna's privacy policy (Datenschutz)"
+msgstr "Den Datenschutzbestimmungen muss zugestimmt werden"
+
+#. payment/klarna_account.php:error_address_match
+msgid ""
+"Billing and Shipping addresses must match if you want to use Klarna Payments"
+msgstr "Liefer- und Zustelladresse müssen übereinstimmen wenn mit Klarna gezahlt wird"
+
+#. payment/klarna_account.php:error_network
+#. payment/klarna_invoice.php:error_network
+msgid "Error occurred while connecting to Klarna. Please try again later."
+msgstr "Leider gab es einen Netzwerkfehler - bitte nochmals probieren"
+
+#. payment/klarna_invoice.php:text_title
+msgid "Klarna Invoice - Pay within 14 days"
+msgstr "Klarna Rechnungskauf"
+
+#. payment/klarna_invoice.php:text_terms_fee
+#, possible-php-format
+msgid ""
+"<span id=\"klarna_invoice_toc\"></span> (+%s)<script type=\"text/javascript"
+"\">var terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: "
+"'%s', country: '%s', charge: %s});</script>"
+msgstr ""
+
+#. payment/klarna_invoice.php:text_terms_no_fee
+#, possible-php-format
+msgid ""
+"<span id=\"klarna_invoice_toc\"></span><script type=\"text/javascript\">var "
+"terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: '%s', "
+"country: '%s'});</script>"
+msgstr ""
+
+#. payment/klarna_invoice.php:text_additional
+msgid ""
+"Klarna Invoice requires some additional information before they can proccess "
+"your order."
+msgstr "Klarna benötigt weitere Infos um mit der Zahlung fortfahren zu können."
+
+#. payment/klarna_invoice.php:text_comment
+#, possible-php-format
+msgid ""
+"Klarna's Invoice ID: %s. \n"
+"%s/%s: %.4f"
+msgstr ""
+
+#. payment/klarna_invoice.php:error_address_match
+msgid ""
+"Billing and Shipping addresses must match if you want to use Klarna Invoice"
+msgstr "Rechnungs- &amp; Zustelladresse müssen übereinstimmen"
+
+#. payment/liqpay.php:text_title
+msgid "Credit Card / Debit Card (LiqPay)"
+msgstr "Kreditkartenzahlung (LiqPay)"
+
+#. payment/moneybookers.php:text_title
+msgid "Credit Card / Debit Card (Moneybookers)"
+msgstr "Kreditkartenzahlung (Skrill)"
+
+#. payment/nochex.php:text_title
+msgid "Credit Card / Debit Card (NOCHEX)"
+msgstr "Kreditkartenzahlung (NOCHEX)"
+
+#. payment/paymate.php:text_title
+msgid "Credit Card / Debit Card (Paymate)"
+msgstr "Kreditkartenzahlung (Paymate)"
+
+#. payment/paymate.php:text_unable
+msgid "Unable to locate or update your order status"
+msgstr "Bestellstatus kann leider nicht gefunden bzw. aktualisiert werden!"
+
+#. payment/paymate.php:text_declined
+msgid "Payment was declined by Paymate"
+msgstr "Zahlung wurde von Paymate abgelehnt"
+
+#. payment/paymate.php:text_failed
+msgid "Paymate Transaction Failed"
+msgstr "Paymate Transaktion fehlgeschlagen"
+
+#. payment/paymate.php:text_failed_message
+#, possible-php-format
+msgid ""
+"<p>Unfortunately there was an error processing your Paymate transaction.</"
+"p><p><b>Warning: </b>%s</p><p>Please verify your Paymate account balance "
+"before attempting to re-process this order</p><p> If you believe this "
+"transaction has completed successfully, or is showing as a deduction in your "
+"Paymate account, please <a href=\"%s\">Contact Us</a> with your order "
+"details.</p>"
+msgstr ""
+
+#. payment/paymate.php:text_basket
+msgid "Basket"
+msgstr "Warenkorb"
+
+#. payment/paymate.php:text_success
+#. checkout/success.php:text_success
+#. affiliate/success.php:text_success
+#. account/success.php:text_success
+msgid "Success"
+msgstr "Erfolgreich"
+
+#. payment/paypoint.php:heading_title
+#. payment/worldpay.php:heading_title
+#, possible-php-format
+msgid "Thank you for shopping with %s .... "
+msgstr ""
+
+#. payment/paypoint.php:text_title
+msgid "Credit Card / Debit Card (PayPoint)"
+msgstr "Kreditkartenzahlung (PayPoint)"
+
+#. payment/paypoint.php:text_response
+msgid "Response from PayPoint:"
+msgstr "Antwort von PayPoint:"
+
+#. payment/paypoint.php:text_success
+#. payment/worldpay.php:text_success
+msgid "... your payment was successfully received."
+msgstr "... Zahlung erfolgreich erhalten."
+
+#. payment/paypoint.php:text_success_wait
+#. payment/worldpay.php:text_success_wait
+#, possible-php-format
+msgid ""
+"<b><span style=\"color: #FF0000\">Please wait...</span></b> whilst we finish "
+"processing your order.<br>If you are not automatically re-directed in 10 "
+"seconds, please click <a href=\"%s\">here</a>."
+msgstr ""
+
+#. payment/paypoint.php:text_failure
+#. payment/worldpay.php:text_failure
+msgid "... Your payment has been cancelled!"
+msgstr "... Zahlung wurde abgebrochen!"
+
+#. payment/paypoint.php:text_failure_wait
+#. payment/worldpay.php:text_failure_wait
+#, possible-php-format
+msgid ""
+"<b><span style=\"color: #FF0000\">Please wait...</span></b><br>If you are "
+"not automatically re-directed in 10 seconds, please click <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+#. payment/payza.php:text_title
+msgid "Credit Card / Debit Card (Payza)"
+msgstr "Kreditkartenzahlung (Payza)"
+
+#. payment/perpetual_payments.php:text_title
+msgid "Credit or Debit Card (Processed securely by Perpetual Payments)"
+msgstr "Kreditkartenzahlung (VoicePay)"
+
+#. payment/perpetual_payments.php:text_transaction
+msgid "Transaction ID:"
+msgstr "Buchungsnummer"
+
+#. payment/perpetual_payments.php:text_avs
+msgid "AVS/CVV:"
+msgstr "AVS/CVV"
+
+#. payment/perpetual_payments.php:text_avs_full_match
+msgid "Full match"
+msgstr "Volle Übereinstimmung"
+
+#. payment/perpetual_payments.php:text_avs_not_match
+msgid "Not matched"
+msgstr "Keine Übereinstimmung"
+
+#. payment/perpetual_payments.php:text_authorisation
+msgid "Authorisation code:"
+msgstr "Genehmigungscode"
+
+#. payment/perpetual_payments.php:entry_cc_start_date
+#. payment/pp_pro.php:entry_cc_start_date
+#. payment/sagepay_direct.php:entry_cc_start_date
+msgid "Card Valid From Date"
+msgstr "Karte gültig ab"
+
+#. payment/perpetual_payments.php:entry_cc_issue
+#. payment/pp_pro.php:entry_cc_issue
+#. payment/sagepay_direct.php:entry_cc_issue
+msgid "Card Issue Number"
+msgstr "Ausgabenummer"
+
+#. payment/pp_express.php:text_title
+msgid "PayPal Express Checkout"
+msgstr "PayPal Express (inkl. Kreditkarten)"
+
+#. payment/pp_express.php:text_cart
+#. information/sitemap.php:text_cart
+#. checkout/cart.php:heading_title
+#. checkout/checkout.php:text_cart
+#. checkout/failure.php:text_basket
+#. checkout/success.php:text_basket
+#. common/header.php:text_shopping_cart
+msgid "Shopping Cart"
+msgstr "Warenkorb"
+
+#. payment/pp_express.php:text_shipping_updated
+msgid "Shipping service updated"
+msgstr "Versand aktualisiert"
+
+#. payment/pp_express.php:text_trial
+#. payment/sagepay_direct.php:text_trial
+#. payment/sagepay_server.php:text_trial
+#. checkout/cart.php:text_trial
+#, possible-php-format
+msgid "%s every %s %s for %s payments then "
+msgstr ""
+
+#. payment/pp_express.php:text_recurring
+#. payment/sagepay_direct.php:text_recurring
+#. payment/sagepay_server.php:text_recurring
+#. checkout/cart.php:text_recurring
+#, possible-php-format
+msgid "%s every %s %s"
+msgstr ""
+
+#. payment/pp_express.php:text_recurring_item
+msgid "Recurring Item"
+msgstr ""
+
+#. payment/pp_express.php:text_length
+#. payment/sagepay_direct.php:text_length
+#. payment/sagepay_server.php:text_length
+#. checkout/cart.php:text_length
+#, possible-php-format
+msgid " for %s payments"
+msgstr ""
+
+#. payment/pp_express.php:button_cancel_profile
+msgid "Cancel payments"
+msgstr ""
+
+#. payment/pp_express.php:error_heading_title
+msgid "There was an error"
+msgstr "Leider gab es Fehler."
+
+#. payment/pp_express.php:error_too_many_failures
+msgid "Your payment has failed too many times"
+msgstr "Wie bedauern, aber die Zahlung konnte aufgrund zuvieler Fehler nicht ausgeführt werden."
+
+#. payment/pp_express.php:express_text_title
+msgid "Confirm order"
+msgstr "Bestellung bestätigen"
+
+#. payment/pp_express.php:express_button_coupon
+msgid "Add"
+msgstr "Neu"
+
+#. payment/pp_express.php:express_button_login
+msgid "Continue to PayPal"
+msgstr "Weiter zu PayPal"
+
+#. payment/pp_express.php:express_button_shipping
+msgid "Update shipping"
+msgstr "Versand aktualisieren"
+
+#. payment/pp_express.php:express_entry_coupon
+msgid "Enter your coupon here:"
+msgstr "Gutscheincode hier angeben:"
+
+#. payment/pp_payflow.php:text_title
+#. payment/pp_pro.php:text_title
+msgid "Credit or Debit Card (Processed securely by PayPal)"
+msgstr "Kreditkartenzahlung (PayPal)"
+
+#. payment/pp_payflow.php:entry_cc_owner
+msgid "Card Owner:"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_type
+msgid "Card Type:"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_number
+msgid "Card Number:"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_start_date
+msgid "Card Valid From Date:"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_expire_date
+msgid "Card Expiry Date:"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_cvv2
+msgid "Card Security Code (CVV2):"
+msgstr ""
+
+#. payment/pp_payflow.php:entry_cc_issue
+msgid "Card Issue Number:"
+msgstr ""
+
+#. payment/pp_payflow.php:error_required
+msgid "Warning: All payment information fields are required."
+msgstr ""
+
+#. payment/pp_payflow.php:error_general
+msgid ""
+"Warning: A general problem has occurred with the transaction. Please try "
+"again."
+msgstr ""
+
+#. payment/pp_payflow.php:error_config
+msgid ""
+"Warning: Payment module configuration error. Please verify the login "
+"credentials."
+msgstr ""
+
+#. payment/pp_payflow.php:error_address
+msgid ""
+"Warning: A match of the Payment Address City, State, and Postal Code failed. "
+"Please try again."
+msgstr ""
+
+#. payment/pp_payflow.php:error_declined
+msgid "Warning: This transaction has been declined. Please try again."
+msgstr ""
+
+#. payment/pp_payflow.php:error_invalid
+msgid ""
+"Warning: The provided credit card information is invalid. Please try again."
+msgstr ""
+
+#. payment/pp_payflow_iframe.php:text_secure_connection
+#. payment/pp_pro_iframe.php:text_secure_connection
+msgid "Creating a secure connection..."
+msgstr "Erstelle eine sichere Verbindung ..."
+
+#. payment/pp_payflow_iframe.php:error_connection
+#. payment/pp_pro_iframe.php:error_connection
+msgid ""
+"Could not connect to PayPal. Please contact the shop's administrator for "
+"assistance or choose a different payment method."
+msgstr "Es konnte keine Verbindung mit PayPal aufgenommen werden. Bitte entweder die Shopverwaltung kontaktieren oder andere Zahlungsart wählen"
+
+#. payment/pp_pro.php:text_loading
+msgid "Loading"
+msgstr ""
+
+#. payment/pp_pro.php:entry_cc_type
+#. payment/realex.php:entry_cc_type
+#. payment/sagepay_direct.php:entry_cc_type
+msgid "Card Type"
+msgstr "Kartentyp"
+
+#. payment/pp_standard.php:text_title
+#. affiliate/payment.php:text_paypal
+#. affiliate/register.php:text_paypal
+msgid "PayPal"
+msgstr "PayPal"
+
+#. payment/pp_standard.php:text_reason
+msgid "REASON"
+msgstr "GRUND"
+
+#. payment/pp_standard.php:text_testmode
+msgid ""
+"Warning: The payment gateway is in 'Sandbox Mode'. Your account will not be "
+"charged."
+msgstr "ACHTUNG!!! Diese Zahlungsart befindet sich momentan im <b>Testmodus</b> - es werden keine realen Zahlungen durchgeführt."
+
+#. payment/pp_standard.php:text_total
+msgid "Shipping, Handling, Discounts & Taxes"
+msgstr "Versand, Bearbeitung, Gutschrift und Steuern"
+
+#. payment/realex.php:text_title
+msgid "Credit / Debit card (Realex)"
+msgstr ""
+
+#. payment/realex.php:text_success
+#. payment/sagepay_server.php:text_success
+msgid "Your payment has been authorised."
+msgstr ""
+
+#. payment/realex.php:text_decline
+msgid "Your payment was unsuccessful"
+msgstr ""
+
+#. payment/realex.php:text_bank_error
+#. payment/sagepay_server.php:text_bank_error
+msgid "There was an error processing your request with the bank."
+msgstr ""
+
+#. payment/realex.php:text_generic_error
+#. payment/sagepay_server.php:text_generic_error
+msgid "There was an error processing your request."
+msgstr ""
+
+#. payment/realex.php:text_hash_failed
+#. payment/sagepay_server.php:text_hash_failed
+msgid ""
+"Hash check failed. Do not try your payment again as the payment status is "
+"unknown. Please contact the merchant."
+msgstr ""
+
+#. payment/realex.php:text_link
+#. payment/sagepay_server.php:text_link
+#, possible-php-format
+msgid "Please click <a href=\"%s\">here</a> to continue"
+msgstr ""
+
+#. payment/realex.php:text_select_card
+msgid "Please select your card type"
+msgstr ""
+
+#. payment/realex.php:text_result
+msgid "Auth result"
+msgstr ""
+
+#. payment/realex.php:text_message
+#. payment/realex_remote.php:text_message
+#. account/voucher.php:entry_message
+msgid "Message"
+msgstr "Nachricht<span class=\"help\">(Optionaler Text an Empfänger)</span>"
+
+#. payment/realex.php:text_cvn_result
+#. payment/realex_remote.php:text_cvn_result
+msgid "CVN result"
+msgstr ""
+
+#. payment/realex.php:text_avs_postcode
+#. payment/realex_remote.php:text_avs_postcode
+msgid "AVS postcode"
+msgstr ""
+
+#. payment/realex.php:text_avs_address
+#. payment/realex_remote.php:text_avs_address
+msgid "AVS address"
+msgstr ""
+
+#. payment/realex.php:text_eci
+#. payment/realex_remote.php:text_eci
+msgid "ECI (3D secure) result"
+msgstr ""
+
+#. payment/realex.php:text_tss
+#. payment/realex_remote.php:text_tss
+msgid "TSS result"
+msgstr ""
+
+#. payment/realex.php:text_order_ref
+#. payment/realex_remote.php:text_order_ref
+msgid "Order ref"
+msgstr ""
+
+#. payment/realex.php:text_timestamp
+#. payment/realex_remote.php:text_timestamp
+msgid "Timestamp"
+msgstr ""
+
+#. payment/realex.php:text_card_type
+#. payment/realex_remote.php:entry_cc_type
+msgid "Card type"
+msgstr ""
+
+#. payment/realex.php:text_card_exp
+msgid "Card expire"
+msgstr ""
+
+#. payment/realex.php:text_card_name
+msgid "Card name"
+msgstr ""
+
+#. payment/realex.php:text_3d_s1
+#. payment/realex_remote.php:text_3d_s1
+msgid "Cardholder Not Enrolled, liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s2
+#. payment/realex_remote.php:text_3d_s2
+msgid "Unable To Verify Enrolment, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s3
+#. payment/realex_remote.php:text_3d_s3
+msgid "Invalid Response From Enrolment Server, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s4
+#. payment/realex_remote.php:text_3d_s4
+msgid ""
+"Enrolled, But Invalid Response From ACS (Access Control Server), no "
+"liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s5
+#. payment/realex_remote.php:text_3d_s5
+msgid "Successful Authentication, liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s6
+#. payment/realex_remote.php:text_3d_s6
+msgid "Authentication Attempt Acknowledged, liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s7
+#. payment/realex_remote.php:text_3d_s7
+msgid "Incorrect Password Entered, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s8
+#. payment/realex_remote.php:text_3d_s8
+msgid "Authentication Unavailable, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s9
+#. payment/realex_remote.php:text_3d_s9
+msgid "Invalid Response From ACS, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_3d_s10
+#. payment/realex_remote.php:text_3d_s10
+msgid "RealMPI Fatal Error, no liability shift"
+msgstr ""
+
+#. payment/realex.php:text_card_visa
+#. payment/realex_remote.php:text_card_visa
+msgid "Visa"
+msgstr ""
+
+#. payment/realex.php:text_card_switch
+#. payment/realex_remote.php:text_card_switch
+msgid "Switch"
+msgstr ""
+
+#. payment/realex.php:text_card_laser
+#. payment/realex_remote.php:text_card_laser
+msgid "Laser"
+msgstr ""
+
+#. payment/realex_remote.php:entry_cc_issue
+msgid "Card issue number"
+msgstr ""
+
+#. payment/realex_remote.php:text_result
+msgid "Result"
+msgstr ""
+
+#. payment/realex_remote.php:text_card_bank
+msgid "Card issue bank"
+msgstr ""
+
+#. payment/realex_remote.php:text_card_country
+msgid "Card country"
+msgstr ""
+
+#. payment/realex_remote.php:text_card_region
+msgid "Card region"
+msgstr ""
+
+#. payment/realex_remote.php:text_last_digits
+msgid "Last 4 digits"
+msgstr ""
+
+#. payment/realex_remote.php:text_auth_code
+msgid "Auth code"
+msgstr ""
+
+#. payment/realex_remote.php:error_3d_unable
+msgid ""
+"Merchant requires 3D secure but unable to verify with your bank, please try "
+"later"
+msgstr ""
+
+#. payment/realex_remote.php:error_3d_500_response_no_payment
+msgid ""
+"An invalid response was received from the card processor, no payment has "
+"been taken"
+msgstr ""
+
+#. payment/realex_remote.php:error_3d_unsuccessful
+msgid "3D secure authorisation failed"
+msgstr ""
+
+#. payment/sagepay_direct.php:text_title
+#. payment/sagepay_server.php:text_title
+#. payment/sagepay_us.php:text_title
+msgid "Credit Card / Debit Card (SagePay)"
+msgstr "Kreditkartenzahlung (SagePay)"
+
+#. payment/sagepay_direct.php:text_credit_card
+#. payment/sagepay_server.php:text_credit_card
+msgid "Card Details"
+msgstr "Kreditkartendetails"
+
+#. payment/sagepay_direct.php:text_card_type
+#. payment/sagepay_server.php:text_card_type
+msgid "Card Type: "
+msgstr ""
+
+#. payment/sagepay_direct.php:text_card_name
+#. payment/sagepay_server.php:text_card_name
+msgid "Card Name: "
+msgstr ""
+
+#. payment/sagepay_direct.php:text_card_digits
+#. payment/sagepay_server.php:text_card_digits
+msgid "Last Digits: "
+msgstr ""
+
+#. payment/sagepay_direct.php:text_card_expiry
+#. payment/sagepay_server.php:text_card_expiry
+msgid "Expiry: "
+msgstr ""
+
+#. payment/sagepay_direct.php:entry_card
+#. payment/sagepay_server.php:entry_card
+msgid "New or Existing Card: "
+msgstr ""
+
+#. payment/sagepay_direct.php:entry_card_existing
+#. payment/sagepay_server.php:entry_card_existing
+msgid "Existing"
+msgstr ""
+
+#. payment/sagepay_direct.php:entry_card_new
+#. payment/sagepay_server.php:entry_card_new
+msgid "New"
+msgstr ""
+
+#. payment/sagepay_direct.php:entry_card_save
+msgid "Remember Card Details"
+msgstr ""
+
+#. payment/sagepay_direct.php:entry_cc_choice
+#. payment/sagepay_server.php:entry_cc_choice
+msgid "Choose an Existing Card"
+msgstr ""
+
+#. payment/sagepay_server.php:text_description
+#, possible-php-format
+msgid "Items on %s Order No: %s"
+msgstr ""
+
+#. payment/sagepay_server.php:text_decline
+msgid "Your payment has been declined."
+msgstr ""
+
+#. payment/sagepay_server.php:text_transaction_error
+msgid "There was an error processing your transaction."
+msgstr ""
+
+#. payment/sagepay_server.php:entry_card_save
+msgid "Remember card details for future use"
+msgstr ""
+
+#. payment/twocheckout.php:text_title
+msgid "Credit Card / Debit Card (2Checkout)"
+msgstr "Kreditkartenzahlung (2Checkout)"
+
+#. payment/web_payment_software.php:text_title
+msgid "Credit Card / Debit Card (Web Payment Software)"
+msgstr "Kreditkarte (WebPayment Software)"
+
+#. payment/worldpay.php:text_title
+msgid "Credit Card / Debit Card (WorldPay)"
+msgstr "Kreditkartenzahlung (WorldPay)"
+
+#. payment/worldpay.php:text_response
+msgid "Response from WorldPay:"
+msgstr "Antwort von WorldPay:"
+
+#. payment/worldpay.php:text_pw_mismatch
+msgid "CallbackPW does not match. Order requires investigation."
+msgstr "Leider traten bei der Zahlung Probleme auf, die Bestellung muss händisch bearbeitet werden."
+
+#. product/category.php:text_product
+#. mail/order.php:text_new_products
+msgid "Products"
+msgstr "Produkte"
+
+#. product/category.php:text_error
+msgid "Category not found!"
+msgstr "Kategorie nicht gefunden!"
+
+#. product/category.php:text_empty
+msgid "There are no products to list in this category."
+msgstr "Keine Produkte in dieser Kategorie vorhanden."
+
+#. product/category.php:text_quantity
+#. product/manufacturer.php:text_quantity
+#. product/search.php:text_quantity
+#. product/special.php:text_quantity
+msgid "Qty:"
+msgstr "Menge"
+
+#. product/category.php:text_manufacturer
+#. product/manufacturer.php:text_manufacturer
+#. product/product.php:text_manufacturer
+#. product/search.php:text_manufacturer
+#. product/special.php:text_manufacturer
+msgid "Brand:"
+msgstr "Hersteller"
+
+#. product/category.php:text_model
+#. product/manufacturer.php:text_model
+#. product/product.php:text_model
+#. product/search.php:text_model
+#. product/special.php:text_model
+msgid "Product Code:"
+msgstr "Art.Nr."
+
+#. product/category.php:text_points
+#. product/manufacturer.php:text_points
+#. product/product.php:text_reward
+#. product/search.php:text_points
+#. product/special.php:text_points
+msgid "Reward Points:"
+msgstr "Bonuspunkte"
+
+#. product/category.php:text_price
+#. product/manufacturer.php:text_price
+#. product/search.php:text_price
+#. product/special.php:text_price
+msgid "Price:"
+msgstr "Preis"
+
+#. product/category.php:text_tax
+#. product/manufacturer.php:text_tax
+#. product/product.php:text_tax
+#. product/search.php:text_tax
+#. product/special.php:text_tax
+#. module/bestseller.php:text_tax
+#. module/featured.php:text_tax
+#. module/latest.php:text_tax
+#. module/special.php:text_tax
+msgid "Ex Tax:"
+msgstr "Preis ohne Steuer"
+
+#. product/category.php:text_compare
+#. product/compare.php:text_compare
+#. product/manufacturer.php:text_compare
+#. product/search.php:text_compare
+#. product/special.php:text_compare
+#, possible-php-format
+msgid "Product Compare (%s)"
+msgstr ""
+
+#. product/category.php:text_sort
+#. product/manufacturer.php:text_sort
+#. product/search.php:text_sort
+#. product/special.php:text_sort
+msgid "Sort By:"
+msgstr "Sortieren nach"
+
+#. product/category.php:text_default
+#. product/manufacturer.php:text_default
+#. product/search.php:text_default
+#. product/special.php:text_default
+#. module/store.php:text_default
+msgid "Default"
+msgstr "Standard"
+
+#. product/category.php:text_name_asc
+#. product/manufacturer.php:text_name_asc
+#. product/search.php:text_name_asc
+#. product/special.php:text_name_asc
+msgid "Name (A - Z)"
+msgstr "Name (A - Z)"
+
+#. product/category.php:text_name_desc
+#. product/manufacturer.php:text_name_desc
+#. product/search.php:text_name_desc
+#. product/special.php:text_name_desc
+msgid "Name (Z - A)"
+msgstr "Name (Z - A)"
+
+#. product/category.php:text_price_asc
+#. product/manufacturer.php:text_price_asc
+#. product/search.php:text_price_asc
+#. product/special.php:text_price_asc
+msgid "Price (Low &gt; High)"
+msgstr "Preis (Niedrig &gt; Hoch)"
+
+#. product/category.php:text_price_desc
+#. product/manufacturer.php:text_price_desc
+#. product/search.php:text_price_desc
+#. product/special.php:text_price_desc
+msgid "Price (High &gt; Low)"
+msgstr "Preis (Hoch &gt; Niedrig)"
+
+#. product/category.php:text_rating_asc
+#. product/manufacturer.php:text_rating_asc
+#. product/search.php:text_rating_asc
+#. product/special.php:text_rating_asc
+msgid "Rating (Lowest)"
+msgstr "Bewertung (Niedrig)"
+
+#. product/category.php:text_rating_desc
+#. product/manufacturer.php:text_rating_desc
+#. product/search.php:text_rating_desc
+#. product/special.php:text_rating_desc
+msgid "Rating (Highest)"
+msgstr "Bewertung (Hoch)"
+
+#. product/category.php:text_model_asc
+#. product/manufacturer.php:text_model_asc
+#. product/search.php:text_model_asc
+#. product/special.php:text_model_asc
+msgid "Model (A - Z)"
+msgstr "Artikelnr. (A - Z)"
+
+#. product/category.php:text_model_desc
+#. product/manufacturer.php:text_model_desc
+#. product/search.php:text_model_desc
+#. product/special.php:text_model_desc
+msgid "Model (Z - A)"
+msgstr "Artikelnr. (Z - A)"
+
+#. product/category.php:text_limit
+#. product/manufacturer.php:text_limit
+#. product/search.php:text_limit
+#. product/special.php:text_limit
+msgid "Show:"
+msgstr "Anzeige"
+
+#. product/compare.php:heading_title
+msgid "Product Comparison"
+msgstr "Produktvergleich"
+
+#. product/compare.php:text_product
+msgid "Product Details"
+msgstr "Produktdetails"
+
+#. product/compare.php:text_name
+#. mail/order.php:text_new_product
+#. account/recurring.php:column_product
+msgid "Product"
+msgstr "Produkt"
+
+#. product/compare.php:text_image
+#. checkout/cart.php:column_image
+#. account/wishlist.php:column_image
+msgid "Image"
+msgstr "Bild"
+
+#. product/compare.php:text_price
+#. mail/order.php:text_new_price
+#. account/order.php:column_price
+#. account/return.php:column_price
+msgid "Price"
+msgstr "Preis"
+
+#. product/compare.php:text_model
+#. checkout/cart.php:column_model
+#. checkout/checkout.php:column_model
+#. mail/order.php:text_new_model
+#. account/order.php:column_model
+#. account/return.php:column_model
+#. account/wishlist.php:column_model
+msgid "Model"
+msgstr "Art.Nr."
+
+#. product/compare.php:text_manufacturer
+#. product/manufacturer.php:text_brand
+#. product/product.php:text_brand
+msgid "Brand"
+msgstr "Hersteller"
+
+#. product/compare.php:text_availability
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#. product/compare.php:text_instock
+#. product/product.php:text_instock
+#. account/wishlist.php:text_instock
+msgid "In Stock"
+msgstr "Auf Lager"
+
+#. product/compare.php:text_rating
+msgid "Rating"
+msgstr "Bewertung"
+
+#. product/compare.php:text_reviews
+#. product/search.php:text_reviews
+#, possible-php-format
+msgid "Based on %s reviews."
+msgstr ""
+
+#. product/compare.php:text_summary
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#. product/compare.php:text_weight
+msgid "Weight"
+msgstr "Gewicht"
+
+#. product/compare.php:text_dimension
+msgid "Dimensions (L x W x H)"
+msgstr "Abmessungen (L x B x H)"
+
+#. product/compare.php:text_success
+#, possible-php-format
+msgid ""
+"Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s\">product "
+"comparison</a>!"
+msgstr ""
+
+#. product/compare.php:text_remove
+msgid "Success: You have modified your product comparison!"
+msgstr "Entfernen"
+
+#. product/compare.php:text_empty
+msgid "You have not chosen any products to compare."
+msgstr "Keine Produkte zum Vergleich gewählt."
+
+#. product/manufacturer.php:heading_title
+msgid "Find Your Favorite Brand"
+msgstr "Hersteller"
+
+#. product/manufacturer.php:text_index
+msgid "Brand Index:"
+msgstr "Herstellerübersicht"
+
+#. product/manufacturer.php:text_error
+msgid "Brand not found!"
+msgstr "Hersteller nicht gefunden!"
+
+#. product/manufacturer.php:text_empty
+msgid "There are no products to list."
+msgstr "Von diesem Hersteller sind keine Produkte vorhanden."
+
+#. product/product.php:text_points
+msgid "Price in reward points:"
+msgstr "Preis in Bonuspunkten"
+
+#. product/product.php:text_stock
+msgid "Availability:"
+msgstr "Verfügbarkeit"
+
+#. product/product.php:text_discount
+msgid " or more "
+msgstr "%s oder weitere %s"
+
+#. product/product.php:text_option
+msgid "Available Options"
+msgstr "Mögliche Optionen"
+
+#. product/product.php:text_minimum
+#, possible-php-format
+msgid "This product has a minimum quantity of %s"
+msgstr ""
+
+#. product/product.php:text_reviews
+#, possible-php-format
+msgid "%s reviews"
+msgstr ""
+
+#. product/product.php:text_write
+msgid "Write a review"
+msgstr "Neue Beurteilung"
+
+#. product/product.php:text_login
+#, possible-php-format
+msgid ""
+"Please <a href=\"%s\">login</a> or <a href=\"%s\">register</a> to review"
+msgstr ""
+
+#. product/product.php:text_no_reviews
+msgid "There are no reviews for this product."
+msgstr "Für dieses Produkt gibt es noch keine Beurteilungen."
+
+#. product/product.php:text_note
+msgid "<span class=\"text-danger\">Note:</span> HTML is not translated!"
+msgstr "<span style=\"color: #FF0000;\">Bitte beachten:</span> HTML ist nicht verfügbar!"
+
+#. product/product.php:text_success
+msgid ""
+"Thank you for your review. It has been submitted to the webmaster for "
+"approval."
+msgstr "Danke für die Beurteilung, sie wird vor Veröffentlichung noch überprüft."
+
+#. product/product.php:text_upload
+msgid "Your file was successfully uploaded!"
+msgstr "Datei erfolgreich geladen!"
+
+#. product/product.php:text_related
+msgid "Related Products"
+msgstr ""
+
+#. product/product.php:text_tags
+msgid "Tags:"
+msgstr "Schnellsuche"
+
+#. product/product.php:text_error
+msgid "Product not found!"
+msgstr "Produkt nicht gefunden!"
+
+#. product/product.php:text_payment_profile
+msgid "Payment Profiles"
+msgstr "Zahlungsprofile"
+
+#. product/product.php:text_trial_description
+#. checkout/cart.php:text_trial_description
+#. checkout/checkout.php:text_trial_description
+#, possible-php-format
+msgid "%s every %d %s(s) for %d payment(s) then"
+msgstr ""
+
+#. product/product.php:text_payment_description
+#. checkout/cart.php:text_payment_description
+#. checkout/checkout.php:text_payment_description
+#, possible-php-format
+msgid "%s every %d %s(s) for %d payment(s)"
+msgstr ""
+
+#. product/product.php:text_payment_until_canceled_description
+#. checkout/cart.php:text_payment_until_canceled_description
+#. checkout/checkout.php:text_payment_until_canceled_description
+#, possible-php-format
+msgid "%s every %d %s(s) until canceled"
+msgstr ""
+
+#. product/product.php:text_day
+#. checkout/cart.php:text_day
+#. checkout/checkout.php:text_day
+msgid "day"
+msgstr "Tag(e)"
+
+#. product/product.php:text_week
+#. checkout/cart.php:text_week
+#. checkout/checkout.php:text_week
+msgid "week"
+msgstr "Woche(n)"
+
+#. product/product.php:text_semi_month
+#. checkout/cart.php:text_semi_month
+#. checkout/checkout.php:text_semi_month
+msgid "half-month"
+msgstr "14 Tage"
+
+#. product/product.php:text_month
+#. checkout/cart.php:text_month
+#. checkout/checkout.php:text_month
+msgid "month"
+msgstr "Monat(e)"
+
+#. product/product.php:text_year
+#. checkout/cart.php:text_year
+#. checkout/checkout.php:text_year
+msgid "year"
+msgstr "Jahr(e)"
+
+#. product/product.php:entry_qty
+msgid "Qty"
+msgstr ""
+
+#. product/product.php:entry_name
+#. information/contact.php:entry_name
+#. account/voucher.php:entry_from_name
+msgid "Your Name"
+msgstr "Mein Name"
+
+#. product/product.php:entry_review
+msgid "Your Review"
+msgstr "Meine Beurteilung"
+
+#. product/product.php:entry_rating
+msgid "Ratng"
+msgstr "Bewertung"
+
+#. product/product.php:entry_good
+msgid "Good"
+msgstr "Gut"
+
+#. product/product.php:entry_bad
+msgid "Bad"
+msgstr "Schlecht"
+
+#. product/product.php:entry_captcha
+#. information/contact.php:entry_captcha
+#. account/return.php:entry_captcha
+msgid "Enter the code in the box below"
+msgstr "Bitte den angezeigten Code einfügen"
+
+#. product/product.php:tab_description
+#. affiliate/transaction.php:column_description
+#. account/reward.php:column_description
+#. account/transaction.php:column_description
+msgid "Description"
+msgstr "Beschreibung"
+
+#. product/product.php:tab_attribute
+msgid "Specification"
+msgstr "Eigenschaften"
+
+#. product/product.php:tab_review
+#, possible-php-format
+msgid "Reviews (%s)"
+msgstr ""
+
+#. product/product.php:error_name
+msgid "Warning: Review Name must be between 3 and 25 characters!"
+msgstr "Name muss zwischen 3 und 25 Zeichen lang sein!"
+
+#. product/product.php:error_text
+msgid "Warning: Review Text must be between 25 and 1000 characters!"
+msgstr "Text muss zwischen 25 und 1000 Zeichen lang sein!"
+
+#. product/product.php:error_rating
+msgid "Warning: Please select a review rating!"
+msgstr "Bitte eine Bewertung auswählen!"
+
+#. product/product.php:error_captcha
+msgid "Warning: Verification code does not match the image!"
+msgstr "Code stimmt nicht mit dem Bild überein!"
+
+#. product/product.php:error_upload
+msgid "Upload required!"
+msgstr "Upload wird benötigt!"
+
+#. product/product.php:error_filename
+msgid "Filename must be between 3 and 64 characters!"
+msgstr "Dateiname muss zwischen 3 und 64 Zeichen lang sein!"
+
+#. product/product.php:error_filetype
+msgid "Invalid file type!"
+msgstr "Ungültiger Dateityp!"
+
+#. product/search.php:heading_tag
+msgid "Tag - "
+msgstr ""
+
+#. product/search.php:text_search
+msgid "Products meeting the search criteria"
+msgstr "Produkte die den Suchkriterien entsprechen"
+
+#. product/search.php:text_keyword
+msgid "Keywords"
+msgstr "Suchbegriff(e)"
+
+#. product/search.php:text_category
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#. product/search.php:text_sub_category
+msgid "Search in subcategories"
+msgstr "In Unterkategorien suchen"
+
+#. product/search.php:text_empty
+msgid "There is no product that matches the search criteria."
+msgstr "Keine Produkte vorhanden, die den Suchkriterien entsprechen"
+
+#. product/search.php:entry_search
+msgid "Search Criteria"
+msgstr "Suche"
+
+#. product/search.php:entry_description
+msgid "Search in product descriptions"
+msgstr "In Produktbeschreibungen suchen"
+
+#. product/special.php:heading_title
+#. information/sitemap.php:text_special
+msgid "Special Offers"
+msgstr "Angebote"
+
+#. product/special.php:text_empty
+msgid "There are no special offer products to list."
+msgstr "Aktuell keine Angebote vorhanden."
+
+#. information/contact.php:heading_title
+#. information/sitemap.php:text_contact
+#. module/information.php:text_contact
+#. common/footer.php:text_contact
+msgid "Contact Us"
+msgstr "Kontakt"
+
+#. information/contact.php:text_location
+msgid "Our Location"
+msgstr "Meine Adresse"
+
+#. information/contact.php:text_store
+msgid "Our Stores"
+msgstr ""
+
+#. information/contact.php:text_contact
+msgid "Contact Form"
+msgstr "Kontaktformular"
+
+#. information/contact.php:text_address
+msgid "Address"
+msgstr "Adresse"
+
+#. information/contact.php:text_telephone
+#. checkout/checkout.php:entry_telephone
+#. affiliate/edit.php:entry_telephone
+#. affiliate/register.php:entry_telephone
+#. account/edit.php:entry_telephone
+#. account/register.php:entry_telephone
+#. account/return.php:entry_telephone
+msgid "Telephone"
+msgstr "Telefon"
+
+#. information/contact.php:text_fax
+#. checkout/checkout.php:entry_fax
+#. affiliate/edit.php:entry_fax
+#. affiliate/register.php:entry_fax
+#. account/edit.php:entry_fax
+#. account/register.php:entry_fax
+msgid "Fax"
+msgstr "Fax"
+
+#. information/contact.php:text_open
+msgid "Opening Times"
+msgstr ""
+
+#. information/contact.php:text_comment
+msgid "Comments"
+msgstr ""
+
+#. information/contact.php:text_success
+msgid "<p>Your enquiry has been successfully sent to the store owner!</p>"
+msgstr ""
+
+#. information/contact.php:entry_email
+#. checkout/checkout.php:entry_email_address
+#. affiliate/forgotten.php:entry_email
+#. account/forgotten.php:entry_email
+#. account/login.php:entry_email
+msgid "E-Mail Address"
+msgstr "Emailadresse"
+
+#. information/contact.php:entry_enquiry
+msgid "Enquiry"
+msgstr "Anfrage"
+
+#. information/contact.php:email_subject
+#, possible-php-format
+msgid "Enquiry %s"
+msgstr ""
+
+#. information/contact.php:error_name
+msgid "Name must be between 3 and 32 characters!"
+msgstr "Name muss zwischen 3 und 32 Zeichen lang sein!"
+
+#. information/contact.php:error_email
+#. checkout/checkout.php:error_email
+#. api/customer.php:error_email
+#. api/voucher.php:error_email
+#. affiliate/edit.php:error_email
+#. affiliate/register.php:error_email
+#. account/edit.php:error_email
+#. account/register.php:error_email
+#. account/return.php:error_email
+#. account/voucher.php:error_email
+msgid "E-Mail Address does not appear to be valid!"
+msgstr "Emailadresse ist nicht gültig!"
+
+#. information/contact.php:error_enquiry
+msgid "Enquiry must be between 10 and 3000 characters!"
+msgstr "Text muss zwischen 10 und 3000 Zeichen lang sein!"
+
+#. information/contact.php:error_captcha
+#. account/return.php:error_captcha
+msgid "Verification code does not match the image!"
+msgstr "Verifizierungscode stimmt nicht mit dem im Bild angezeigten Code überein!"
+
+#. information/information.php:text_error
+msgid "Information Page Not Found!"
+msgstr "Diese Textseite ist leider nicht vorhanden!"
+
+#. information/sitemap.php:heading_title
+#. module/information.php:text_sitemap
+#. common/footer.php:text_sitemap
+msgid "Site Map"
+msgstr "Seitenübersicht"
+
+#. information/sitemap.php:text_account
+#. module/account.php:text_account
+#. module/affiliate.php:text_account
+#. account/account.php:heading_title
+#. account/account.php:text_my_account
+#. common/footer.php:text_account
+#. common/header.php:text_account
+msgid "My Account"
+msgstr "Mein Konto"
+
+#. information/sitemap.php:text_edit
+msgid "Account Information"
+msgstr "Kontoinformation"
+
+#. information/sitemap.php:text_password
+#. checkout/checkout.php:entry_password
+#. module/account.php:text_password
+#. module/affiliate.php:text_password
+#. affiliate/login.php:entry_password
+#. affiliate/password.php:entry_password
+#. affiliate/register.php:entry_password
+#. account/login.php:entry_password
+#. account/password.php:entry_password
+#. account/register.php:entry_password
+msgid "Password"
+msgstr "Passwort"
+
+#. information/sitemap.php:text_address
+#. account/address.php:heading_title
+msgid "Address Book"
+msgstr "Adressen"
+
+#. information/sitemap.php:text_history
+#. module/account.php:text_order
+#. account/order.php:heading_title
+#. account/order.php:text_history
+#. common/footer.php:text_order
+msgid "Order History"
+msgstr "Auftragsverlauf"
+
+#. information/sitemap.php:text_download
+#. module/account.php:text_download
+#. account/account.php:text_download
+#. account/download.php:text_downloads
+msgid "Downloads"
+msgstr "Downloads"
+
+#. information/sitemap.php:text_information
+#. module/information.php:heading_title
+#. common/footer.php:text_information
+msgid "Information"
+msgstr "Informationen"
+
+#. checkout/cart.php:text_success
+#. account/order.php:text_success
+#, possible-php-format
+msgid ""
+"Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s"
+"\">shopping cart</a>!"
+msgstr ""
+
+#. checkout/cart.php:text_remove
+#. api/cart.php:text_success
+#. api/voucher.php:text_cart
+msgid "Success: You have modified your shopping cart!"
+msgstr "Warenkorb erfolgreich aktualisiert."
+
+#. checkout/cart.php:text_login
+#, possible-php-format
+msgid ""
+"Attention: You must <a href=\"%s\">login</a> or <a href=\"%s\">create an "
+"account</a> to view prices!"
+msgstr ""
+
+#. checkout/cart.php:text_items
+#. common/cart.php:text_items
+#, possible-php-format
+msgid "%s item(s) - %s"
+msgstr ""
+
+#. checkout/cart.php:text_points
+#, possible-php-format
+msgid "Reward Points: %s"
+msgstr ""
+
+#. checkout/cart.php:text_next
+msgid "What would you like to do next?"
+msgstr "Bitte nächsten Schritt wählen"
+
+#. checkout/cart.php:text_next_choice
+msgid ""
+"Choose if you have a discount code or reward points you want to use or would "
+"like to estimate your delivery cost."
+msgstr "Gutschein / Bonuspunkte einlösen oder - wenn anwendbar - Versandkosten berechnen."
+
+#. checkout/cart.php:text_empty
+#. common/cart.php:text_empty
+msgid "Your shopping cart is empty!"
+msgstr "Warenkorb ist noch leer!"
+
+#. checkout/cart.php:text_until_cancelled
+msgid "until cancelled"
+msgstr "bis storniert"
+
+#. checkout/cart.php:text_recurring_item
+#. checkout/checkout.php:text_recurring
+msgid "Recurring item"
+msgstr "Wiederholung"
+
+#. checkout/cart.php:text_payment_profile
+#. checkout/checkout.php:text_payment_profile
+#. common/cart.php:text_profile
+msgid "Payment Profile"
+msgstr "Zahlungsprofil"
+
+#. checkout/cart.php:column_name
+#. checkout/checkout.php:column_name
+#. account/order.php:column_name
+#. account/return.php:column_product
+#. account/return.php:entry_product
+#. account/wishlist.php:column_name
+msgid "Product Name"
+msgstr "Name"
+
+#. checkout/cart.php:column_quantity
+#. checkout/checkout.php:column_quantity
+#. mail/order.php:text_new_quantity
+#. account/order.php:column_quantity
+#. account/return.php:column_quantity
+#. account/return.php:entry_quantity
+msgid "Quantity"
+msgstr "Menge"
+
+#. checkout/cart.php:column_price
+#. checkout/checkout.php:column_price
+#. account/wishlist.php:column_price
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+#. checkout/cart.php:column_total
+#. checkout/checkout.php:column_total
+#. mail/order.php:text_new_total
+#. total/total.php:text_total
+#. account/order.php:column_total
+msgid "Total"
+msgstr "Summe"
+
+#. checkout/cart.php:error_stock
+#. api/cart.php:error_stock
+#. api/order.php:error_stock
+msgid ""
+"Products marked with *** are not available in the desired quantity or not in "
+"stock!"
+msgstr "Produkte mit *** sind nicht oder nicht in der gewünschten Menge verfügbar!"
+
+#. checkout/cart.php:error_minimum
+#. api/cart.php:error_minimum
+#. api/order.php:error_minimum
+#, possible-php-format
+msgid "Minimum order amount for %s is %s!"
+msgstr ""
+
+#. checkout/cart.php:error_required
+#. checkout/checkout.php:error_custom_field
+#. api/cart.php:error_required
+#. api/customer.php:error_custom_field
+#. api/payment.php:error_custom_field
+#. api/shipping.php:error_custom_field
+#. account/register.php:error_custom_field
+#, possible-php-format
+msgid "%s required!"
+msgstr ""
+
+#. checkout/cart.php:error_product
+msgid "Warning: There are no products in your cart!"
+msgstr "Hinweis: Es sind keine Artikel zum Versenden vorhanden."
+
+#. checkout/cart.php:error_profile_required
+msgid "Please select a payment profile!"
+msgstr "Bitte ein Zahlungsprofil wählen"
+
+#. checkout/checkout.php:text_checkout_option
+msgid "Step 1: Checkout Options"
+msgstr "Schritt 1: Neukunde oder bereits Registriert"
+
+#. checkout/checkout.php:text_checkout_account
+msgid "Step 2: Account &amp; Billing Details"
+msgstr "Schritt 2: Konto- &amp; Rechnungsdetails"
+
+#. checkout/checkout.php:text_checkout_payment_address
+msgid "Step 2: Billing Details"
+msgstr "Schritt 2: Rechnungsadresse"
+
+#. checkout/checkout.php:text_checkout_shipping_address
+msgid "Step 3: Delivery Details"
+msgstr "Schritt 3: Lieferadresse"
+
+#. checkout/checkout.php:text_checkout_shipping_method
+msgid "Step 4: Delivery Method"
+msgstr "Schritt 4: Versandart"
+
+#. checkout/checkout.php:text_checkout_payment_method
+msgid "Step 5: Payment Method"
+msgstr "Schritt 5: Zahlungsart"
+
+#. checkout/checkout.php:text_checkout_confirm
+msgid "Step 6: Confirm Order"
+msgstr "Schritt 6: Auftrag bestätigen"
+
+#. checkout/checkout.php:text_modify
+msgid "Modify &raquo;"
+msgstr "Ändern &raquo;"
+
+#. checkout/checkout.php:text_new_customer
+#. account/login.php:text_new_customer
+msgid "New Customer"
+msgstr "Ich habe noch kein Konto"
+
+#. checkout/checkout.php:text_returning_customer
+#. account/login.php:text_returning_customer
+msgid "Returning Customer"
+msgstr "Ich bin bereits Kunde"
+
+#. checkout/checkout.php:text_checkout
+msgid "Checkout Options:"
+msgstr "Optionen"
+
+#. checkout/checkout.php:text_i_am_returning_customer
+#. account/login.php:text_i_am_returning_customer
+msgid "I am a returning customer"
+msgstr "Bitte anmelden"
+
+#. checkout/checkout.php:text_register
+#. account/login.php:text_register
+#. account/register.php:heading_title
+msgid "Register Account"
+msgstr "Neues Konto anlegen"
+
+#. checkout/checkout.php:text_register_account
+#. account/login.php:text_register_account
+msgid ""
+"By creating an account you will be able to shop faster, be up to date on an "
+"order's status, and keep track of the orders you have previously made."
+msgstr "Mit dem Anlegen eines Kontos erfolgen zukünftige Bestellungen schneller, der Auftragsstatus kann nachverfolgt, bisherige Bestellungen angesehen, sowie persönliche Daten bearbeitet werden."
+
+#. checkout/checkout.php:text_forgotten
+#. module/account.php:text_forgotten
+#. module/affiliate.php:text_forgotten
+#. affiliate/forgotten.php:text_forgotten
+#. affiliate/login.php:text_forgotten
+#. account/forgotten.php:text_forgotten
+#. account/login.php:text_forgotten
+msgid "Forgotten Password"
+msgstr "Passwort vergessen"
+
+#. checkout/checkout.php:text_your_details
+#. affiliate/edit.php:text_your_details
+#. affiliate/register.php:text_your_details
+#. account/edit.php:text_your_details
+#. account/register.php:text_your_details
+msgid "Your Personal Details"
+msgstr "Persönliche Angaben"
+
+#. checkout/checkout.php:text_your_address
+#. affiliate/edit.php:text_your_address
+#. account/register.php:text_your_address
+msgid "Your Address"
+msgstr "Meine Adresse"
+
+#. checkout/checkout.php:text_your_password
+#. affiliate/password.php:text_password
+#. affiliate/payment.php:text_your_password
+#. affiliate/register.php:text_your_password
+#. account/password.php:text_password
+#. account/register.php:text_your_password
+msgid "Your Password"
+msgstr "Passwort"
+
+#. checkout/checkout.php:text_agree
+#. affiliate/register.php:text_agree
+#. account/register.php:text_agree
+#. account/return.php:text_agree
+#, possible-php-format
+msgid ""
+"I have read and agree to the <a href=\"%s\" class=\"agree\"><b>%s</b></a>"
+msgstr ""
+
+#. checkout/checkout.php:text_address_new
+msgid "I want to use a new address"
+msgstr "Neue/andere Rechnungs-/Lieferadresse anlegen/verwenden."
+
+#. checkout/checkout.php:text_address_existing
+msgid "I want to use an existing address"
+msgstr "Bereits vorhandene Rechnungs-/Lieferadresse verwenden."
+
+#. checkout/checkout.php:text_shipping_method
+#. checkout/shipping.php:text_shipping_method
+msgid "Please select the preferred shipping method to use on this order."
+msgstr "Bitte die gewünschte Versandart für diesen Auftrag wählen."
+
+#. checkout/checkout.php:text_payment_method
+msgid "Please select the preferred payment method to use on this order."
+msgstr "Bitte die gewünschte Zahlungsart für diesen Auftrag wählen."
+
+#. checkout/checkout.php:text_comments
+msgid "Add Comments About Your Order"
+msgstr "Kommentar zur Bestellung (optional)"
+
+#. checkout/checkout.php:entry_email
+#. affiliate/edit.php:entry_email
+#. affiliate/register.php:entry_email
+#. account/edit.php:entry_email
+#. account/register.php:entry_email
+#. account/return.php:entry_email
+msgid "E-Mail"
+msgstr "Email"
+
+#. checkout/checkout.php:entry_confirm
+#. affiliate/password.php:entry_confirm
+#. affiliate/register.php:entry_confirm
+#. account/password.php:entry_confirm
+#. account/register.php:entry_confirm
+msgid "Password Confirm"
+msgstr "Wiederholung"
+
+#. checkout/checkout.php:entry_firstname
+#. affiliate/edit.php:entry_firstname
+#. affiliate/register.php:entry_firstname
+#. account/address.php:entry_firstname
+#. account/edit.php:entry_firstname
+#. account/register.php:entry_firstname
+#. account/return.php:entry_firstname
+msgid "First Name"
+msgstr "Vorname"
+
+#. checkout/checkout.php:entry_lastname
+#. affiliate/edit.php:entry_lastname
+#. affiliate/register.php:entry_lastname
+#. account/address.php:entry_lastname
+#. account/edit.php:entry_lastname
+#. account/register.php:entry_lastname
+#. account/return.php:entry_lastname
+msgid "Last Name"
+msgstr "Nachname"
+
+#. checkout/checkout.php:entry_address
+msgid "Choose Address"
+msgstr ""
+
+#. checkout/checkout.php:entry_company
+#. affiliate/edit.php:entry_company
+#. affiliate/register.php:entry_company
+#. account/address.php:entry_company
+#. account/register.php:entry_company
+msgid "Company"
+msgstr "Firma"
+
+#. checkout/checkout.php:entry_customer_group
+#. account/register.php:entry_customer_group
+msgid "Customer Group"
+msgstr "Kundengruppe"
+
+#. checkout/checkout.php:entry_address_1
+#. affiliate/edit.php:entry_address_1
+#. affiliate/register.php:entry_address_1
+#. account/address.php:entry_address_1
+#. account/register.php:entry_address_1
+msgid "Address 1"
+msgstr "Strasse"
+
+#. checkout/checkout.php:entry_address_2
+#. affiliate/edit.php:entry_address_2
+#. affiliate/register.php:entry_address_2
+#. account/address.php:entry_address_2
+#. account/register.php:entry_address_2
+msgid "Address 2"
+msgstr "Adresszusatz"
+
+#. checkout/checkout.php:entry_postcode
+#. checkout/shipping.php:entry_postcode
+#. affiliate/edit.php:entry_postcode
+#. affiliate/register.php:entry_postcode
+#. account/address.php:entry_postcode
+#. account/register.php:entry_postcode
+msgid "Post Code"
+msgstr "Postleitzahl"
+
+#. checkout/checkout.php:entry_city
+#. affiliate/edit.php:entry_city
+#. affiliate/register.php:entry_city
+#. account/address.php:entry_city
+#. account/register.php:entry_city
+msgid "City"
+msgstr "Stadt"
+
+#. checkout/checkout.php:entry_country
+#. checkout/shipping.php:entry_country
+#. affiliate/edit.php:entry_country
+#. affiliate/register.php:entry_country
+#. account/address.php:entry_country
+#. account/register.php:entry_country
+msgid "Country"
+msgstr "Land"
+
+#. checkout/checkout.php:entry_zone
+#. checkout/shipping.php:entry_zone
+#. affiliate/edit.php:entry_zone
+#. affiliate/register.php:entry_zone
+#. account/address.php:entry_zone
+#. account/register.php:entry_zone
+msgid "Region / State"
+msgstr "Bundesland"
+
+#. checkout/checkout.php:entry_newsletter
+#, possible-php-format
+msgid "I wish to subscribe to the %s newsletter."
+msgstr ""
+
+#. checkout/checkout.php:entry_shipping
+msgid "My delivery and billing addresses are the same."
+msgstr "Meine Liefer- und Rechnungsadresse stimmen überein."
+
+#. checkout/checkout.php:error_warning
+#, possible-php-format
+msgid ""
+"There was a problem while trying to process your order! If the problem "
+"persists please try selecting a different payment method or you can contact "
+"the store owner by <a href=\"%s\">clicking here</a>."
+msgstr ""
+
+#. checkout/checkout.php:error_login
+#. affiliate/login.php:error_login
+#. account/login.php:error_login
+msgid "Warning: No match for E-Mail Address and/or Password."
+msgstr "Emailadresse und/oder Passwort sind nicht korrekt."
+
+#. checkout/checkout.php:error_approved
+#. affiliate/login.php:error_approved
+#. account/login.php:error_approved
+msgid "Warning: Your account requires approval before you can login."
+msgstr "Hinweis: das Konto muss noch genehmigt werden."
+
+#. checkout/checkout.php:error_exists
+#. affiliate/register.php:error_exists
+#. account/register.php:error_exists
+msgid "Warning: E-Mail Address is already registered!"
+msgstr "Diese Emailadresse ist bereits registriert!"
+
+#. checkout/checkout.php:error_firstname
+#. api/customer.php:error_firstname
+#. api/payment.php:error_firstname
+#. api/shipping.php:error_firstname
+#. affiliate/edit.php:error_firstname
+#. affiliate/register.php:error_firstname
+#. account/address.php:error_firstname
+#. account/edit.php:error_firstname
+#. account/register.php:error_firstname
+#. account/return.php:error_firstname
+msgid "First Name must be between 1 and 32 characters!"
+msgstr "Vorname muss zwischen 1 und 32 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_lastname
+#. api/customer.php:error_lastname
+#. api/payment.php:error_lastname
+#. api/shipping.php:error_lastname
+#. affiliate/edit.php:error_lastname
+#. affiliate/register.php:error_lastname
+#. account/address.php:error_lastname
+#. account/edit.php:error_lastname
+#. account/register.php:error_lastname
+#. account/return.php:error_lastname
+msgid "Last Name must be between 1 and 32 characters!"
+msgstr "Nachname muss zwischen 1 und 32 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_telephone
+#. api/customer.php:error_telephone
+#. affiliate/edit.php:error_telephone
+#. affiliate/register.php:error_telephone
+#. account/edit.php:error_telephone
+#. account/register.php:error_telephone
+#. account/return.php:error_telephone
+msgid "Telephone must be between 3 and 32 characters!"
+msgstr "Telefon muss zwischen 3 und 32 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_password
+msgid "Password must be between 3 and 20 characters!"
+msgstr "Passwort muss zwischen 3 und 20 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_confirm
+#. affiliate/password.php:error_confirm
+#. affiliate/register.php:error_confirm
+#. account/password.php:error_confirm
+#. account/register.php:error_confirm
+msgid "Password confirmation does not match password!"
+msgstr "Passwort und Wiederholung stimmen nicht überein!"
+
+#. checkout/checkout.php:error_address_1
+#. api/payment.php:error_address_1
+#. api/shipping.php:error_address_1
+#. affiliate/edit.php:error_address_1
+#. affiliate/register.php:error_address_1
+#. account/register.php:error_address_1
+msgid "Address 1 must be between 3 and 128 characters!"
+msgstr "Strasse muss zwischen 3 und 128 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_city
+#. affiliate/edit.php:error_city
+#. affiliate/register.php:error_city
+#. account/address.php:error_city
+#. account/register.php:error_city
+msgid "City must be between 2 and 128 characters!"
+msgstr "Stadt muss zwischen 2 und 128 Zeichen lang sein!"
+
+#. checkout/checkout.php:error_postcode
+#. checkout/shipping.php:error_postcode
+#. affiliate/edit.php:error_postcode
+#. affiliate/register.php:error_postcode
+#. account/address.php:error_postcode
+#. account/register.php:error_postcode
+msgid "Postcode must be between 2 and 10 characters!"
+msgstr "Postleitzahl muss zwischen 2 und 10 Zeichen lang sein."
+
+#. checkout/checkout.php:error_country
+#. checkout/shipping.php:error_country
+#. api/payment.php:error_country
+#. api/shipping.php:error_country
+#. affiliate/edit.php:error_country
+#. affiliate/register.php:error_country
+#. account/address.php:error_country
+#. account/register.php:error_country
+msgid "Please select a country!"
+msgstr "Bitte ein Land wählen!"
+
+#. checkout/checkout.php:error_zone
+#. checkout/shipping.php:error_zone
+#. api/payment.php:error_zone
+#. api/shipping.php:error_zone
+#. affiliate/edit.php:error_zone
+#. affiliate/register.php:error_zone
+#. account/address.php:error_zone
+#. account/register.php:error_zone
+msgid "Please select a region / state!"
+msgstr "Bitte ein Bundesland wählen!"
+
+#. checkout/checkout.php:error_agree
+#. affiliate/register.php:error_agree
+#. account/register.php:error_agree
+#. account/return.php:error_agree
+#, possible-php-format
+msgid "Warning: You must agree to the %s!"
+msgstr ""
+
+#. checkout/checkout.php:error_address
+msgid "Warning: You must select address!"
+msgstr "Es muss eine Adresse ausgewählt werden!"
+
+#. checkout/checkout.php:error_shipping
+#. checkout/shipping.php:error_shipping
+#. api/shipping.php:error_method
+msgid "Warning: Shipping method required!"
+msgstr "Es muss eine Versandart ausgewählt werden!"
+
+#. checkout/checkout.php:error_no_shipping
+#. checkout/shipping.php:error_no_shipping
+#, possible-php-format
+msgid ""
+"Warning: No Shipping options are available. Please <a href=\"%s\">contact "
+"us</a> for assistance!"
+msgstr ""
+
+#. checkout/checkout.php:error_payment
+#. api/payment.php:error_method
+msgid "Warning: Payment method required!"
+msgstr "Es muss eine Zahlungsart ausgewählt werden!"
+
+#. checkout/checkout.php:error_no_payment
+#, possible-php-format
+msgid ""
+"Warning: No Payment options are available. Please <a href=\"%s\">contact us</"
+"a> for assistance!"
+msgstr ""
+
+#. checkout/coupon.php:heading_title
+msgid "Use Coupon Code"
+msgstr ""
+
+#. checkout/coupon.php:text_success
+#. api/coupon.php:text_success
+msgid "Success: Your coupon discount has been applied!"
+msgstr ""
+
+#. checkout/coupon.php:entry_coupon
+msgid "Enter your coupon here"
+msgstr ""
+
+#. checkout/coupon.php:error_coupon
+msgid "Warning: Coupon is either invalid, expired or reached its usage limit!"
+msgstr ""
+
+#. checkout/failure.php:heading_title
+msgid "Failed Payment!"
+msgstr ""
+
+#. checkout/failure.php:text_failure
+msgid "Failed Payment"
+msgstr ""
+
+#. checkout/failure.php:text_message
+#, possible-php-format
+msgid ""
+"<p>There was a problem processing your payment and the order did not "
+"complete.</p>\n"
+"\n"
+"<p>Possible reasons are:</p>\n"
+"<ul>\n"
+"  <li>Insufficient funds</li>\n"
+"  <li>Verification failed</li>\n"
+"</ul>\n"
+"\n"
+"<p>Please try to order again using a different payment method.</p>\n"
+"\n"
+"<p>If the problem persists please <a href=\"%s\">contact us</a> with the "
+"details of the order you are trying to place.</p>\n"
+msgstr ""
+
+#. checkout/reward.php:heading_title
+#, possible-php-format
+msgid "Use Reward Points (Available %s)"
+msgstr ""
+
+#. checkout/reward.php:text_success
+#. api/reward.php:text_success
+msgid "Success: Your reward points discount has been applied!"
+msgstr ""
+
+#. checkout/reward.php:entry_reward
+#, possible-php-format
+msgid "Points to use (Max %s)"
+msgstr ""
+
+#. checkout/reward.php:error_reward
+#. api/reward.php:error_reward
+msgid "Warning: Please enter the amount of reward points to use!"
+msgstr ""
+
+#. checkout/reward.php:error_points
+#. api/reward.php:error_points
+#, possible-php-format
+msgid "Warning: You don't have %s reward points!"
+msgstr ""
+
+#. checkout/reward.php:error_maximum
+#. api/reward.php:error_maximum
+#, possible-php-format
+msgid "Warning: The maximum number of points that can be applied is %s!"
+msgstr ""
+
+#. checkout/shipping.php:heading_title
+msgid "Estimate Shipping &amp; Taxes"
+msgstr ""
+
+#. checkout/shipping.php:text_success
+msgid "Success: Your shipping estimate has been applied!"
+msgstr ""
+
+#. checkout/shipping.php:text_shipping
+msgid "Enter your destination to get a shipping estimate."
+msgstr ""
+
+#. checkout/success.php:text_customer
+#, possible-php-format
+msgid ""
+"<p>Your order has been successfully processed!</p><p>You can view your order "
+"history by going to the <a href=\"%s\">my account</a> page and by clicking "
+"on <a href=\"%s\">history</a>.</p><p>If your purchase has an associated "
+"download, you can go to the account <a href=\"%s\">downloads</a> page to "
+"view them.</p><p>Please direct any questions you have to the <a href=\"%s"
+"\">store owner</a>.</p><p>Thanks for shopping with us online!</p>"
+msgstr ""
+
+#. checkout/success.php:text_guest
+#, possible-php-format
+msgid ""
+"<p>Your order has been successfully processed!</p><p>Please direct any "
+"questions you have to the <a href=\"%s\">store owner</a>.</p><p>Thanks for "
+"shopping with us online!</p>"
+msgstr ""
+
+#. checkout/voucher.php:heading_title
+msgid "Use Gift Voucher"
+msgstr ""
+
+#. checkout/voucher.php:text_success
+#. api/voucher.php:text_success
+msgid "Success: Your gift voucher discount has been applied!"
+msgstr ""
+
+#. checkout/voucher.php:entry_voucher
+msgid "Enter your gift voucher code here"
+msgstr ""
+
+#. checkout/voucher.php:error_voucher
+#. api/voucher.php:error_voucher
+msgid ""
+"Warning: Gift Voucher is either invalid or the balance has been used up!"
+msgstr ""
+
+#. error/not_found.php:heading_title
+msgid "The page you requested cannot be found!"
+msgstr "Seite nicht gefunden"
+
+#. error/not_found.php:text_error
+msgid "The page you requested cannot be found."
+msgstr "Wir bedauern, aber die angeforderte Seite ist leider nicht vorhanden.<br />Sollte das Problem weiterhin bestehen bitte uns zu kontaktieren - vielen Dank."
+
+#. shipping/auspost.php:text_title
+msgid "Australia Post"
+msgstr "Australische Post"
+
+#. shipping/auspost.php:text_express
+msgid "Express"
+msgstr "Express"
+
+#. shipping/auspost.php:text_standard
+msgid "Standard"
+msgstr "Standard"
+
+#. shipping/auspost.php:text_eta
+msgid "days"
+msgstr "Tage"
+
+#. shipping/citylink.php:text_title
+msgid "Citylink"
+msgstr "Citylink"
+
+#. shipping/citylink.php:text_weight
+#. shipping/fedex.php:text_weight
+#. shipping/parcelforce_48.php:text_weight
+#. shipping/royal_mail.php:text_weight
+#. shipping/ups.php:text_weight
+#. shipping/usps.php:text_weight
+#. shipping/weight.php:text_weight
+msgid "Weight:"
+msgstr "Gewicht"
+
+#. shipping/fedex.php:text_title
+msgid "Fedex"
+msgstr "Fedex"
+
+#. shipping/fedex.php:text_eta
+#. shipping/usps.php:text_eta
+msgid "Estimated Time:"
+msgstr "Ungefähres Lieferdatum"
+
+#. shipping/fedex.php:text_europe_first_international_priority
+msgid "Europe First International Priority"
+msgstr "Europe First International Priority"
+
+#. shipping/fedex.php:text_fedex_1_day_freight
+msgid "Fedex 1 Day Freight"
+msgstr "Fedex 1 Tagesfracht"
+
+#. shipping/fedex.php:text_fedex_2_day
+msgid "Fedex 2 Day"
+msgstr "Fedex 2 Tage"
+
+#. shipping/fedex.php:text_fedex_2_day_am
+msgid "Fedex 2 Day AM"
+msgstr "Fedex 2 Tage Nachmittag"
+
+#. shipping/fedex.php:text_fedex_2_day_freight
+msgid "Fedex 2 Day Freight"
+msgstr "Fedex 2 Tage Fracht"
+
+#. shipping/fedex.php:text_fedex_3_day_freight
+msgid "Fedex 3 Day Freight"
+msgstr "Fedex 3 Tage Fracht"
+
+#. shipping/fedex.php:text_fedex_express_saver
+msgid "Fedex Express Saver"
+msgstr "Fedex Express Spar"
+
+#. shipping/fedex.php:text_fedex_first_freight
+msgid "Fedex First Fright"
+msgstr "Fedex Erste Fracht"
+
+#. shipping/fedex.php:text_fedex_freight_economy
+msgid "Fedex Fright Economy"
+msgstr "Fedex Fracht Economy"
+
+#. shipping/fedex.php:text_fedex_freight_priority
+msgid "Fedex Fright Priority"
+msgstr "Fedex Fracht Vorrangig"
+
+#. shipping/fedex.php:text_fedex_ground
+msgid "Fedex Ground"
+msgstr "Fedex Ground"
+
+#. shipping/fedex.php:text_first_overnight
+msgid "First Overnight"
+msgstr "First Übernacht"
+
+#. shipping/fedex.php:text_ground_home_delivery
+msgid "Ground Home Delivery"
+msgstr "Heimzustellung"
+
+#. shipping/fedex.php:text_international_economy
+msgid "International Economy"
+msgstr "International Economy"
+
+#. shipping/fedex.php:text_international_economy_freight
+msgid "International Economy Freight"
+msgstr "International Economy Fracht"
+
+#. shipping/fedex.php:text_international_first
+msgid "International First"
+msgstr "International Erstes"
+
+#. shipping/fedex.php:text_international_priority
+msgid "International Priority"
+msgstr "International Priorität"
+
+#. shipping/fedex.php:text_international_priority_freight
+msgid "International Priority Freight"
+msgstr "International Priorität Fracht"
+
+#. shipping/fedex.php:text_priority_overnight
+msgid "Priority Overnight"
+msgstr "Vorrang Übernacht"
+
+#. shipping/fedex.php:text_smart_post
+msgid "Smart Post"
+msgstr "Smart Post"
+
+#. shipping/fedex.php:text_standard_overnight
+msgid "Standard Overnight"
+msgstr "Standard Übernacht"
+
+#. shipping/flat.php:text_title
+msgid "Flat Rate"
+msgstr "Versandkostenpauschale"
+
+#. shipping/flat.php:text_description
+msgid "Flat Shipping Rate"
+msgstr "Versandkostenpauschale"
+
+#. shipping/free.php:text_title
+#. shipping/free.php:text_description
+msgid "Free Shipping"
+msgstr "Versandkostenfrei"
+
+#. shipping/item.php:text_title
+msgid "Per Item"
+msgstr "Versandkosten pro Stück"
+
+#. shipping/item.php:text_description
+msgid "Per Item Shipping Rate"
+msgstr "Versandkosten pro Stück"
+
+#. shipping/parcelforce_48.php:text_title
+#. shipping/parcelforce_48.php:text_description
+msgid "Parcelforce 48"
+msgstr "Parcelforce 48"
+
+#. shipping/parcelforce_48.php:text_insurance
+#. shipping/royal_mail.php:text_insurance
+msgid "Insured upto:"
+msgstr "Versichert bis"
+
+#. shipping/parcelforce_48.php:text_time
+msgid "Estimated Time: Within 48 Hours"
+msgstr "Versand innerhalb von 48 Stunden"
+
+#. shipping/pickup.php:text_title
+msgid "Pickup"
+msgstr "Abholung"
+
+#. shipping/pickup.php:text_description
+msgid "Pickup From Store"
+msgstr "Abholung von Geschäft"
+
+#. shipping/royal_mail.php:text_title
+msgid "Royal Mail"
+msgstr "Royal Mail"
+
+#. shipping/royal_mail.php:text_1st_class_standard
+msgid "First Class Standard Post"
+msgstr "First Class Standard Post"
+
+#. shipping/royal_mail.php:text_1st_class_recorded
+msgid "First Class Recorded Post"
+msgstr "First Class Recorded Post"
+
+#. shipping/royal_mail.php:text_2nd_class_standard
+msgid "Second Class Standard Post"
+msgstr "Second Class Standard Post"
+
+#. shipping/royal_mail.php:text_2nd_class_recorded
+msgid "Second Class Recorded Post"
+msgstr "Second Class Recorded Post"
+
+#. shipping/royal_mail.php:text_special_delivery_500
+msgid "Special Delivery Next Day (&pound;500)"
+msgstr "Spezial Lieferung nä. Tag (&pound;500)"
+
+#. shipping/royal_mail.php:text_special_delivery_1000
+msgid "Special Delivery Next Day (&pound;1000)"
+msgstr "Spezial Lieferung nä. Tag (&pound;1000)"
+
+#. shipping/royal_mail.php:text_special_delivery_2500
+msgid "Special Delivery Next Day (&pound;2500)"
+msgstr "Spezial Lieferung nä. Tag (&pound;2500)"
+
+#. shipping/royal_mail.php:text_standard_parcels
+msgid "Standard Parcels"
+msgstr "Standard Paket"
+
+#. shipping/royal_mail.php:text_airmail
+msgid "Airmail"
+msgstr "Luftpost"
+
+#. shipping/royal_mail.php:text_international_signed
+msgid "International Signed"
+msgstr "International Signed"
+
+#. shipping/royal_mail.php:text_airsure
+msgid "Airsure"
+msgstr "Airsure"
+
+#. shipping/royal_mail.php:text_surface
+msgid "Surface"
+msgstr "Oberfläche"
+
+#. shipping/ups.php:text_title
+msgid "United Parcel Service"
+msgstr "United Parcel Service (UPS)"
+
+#. shipping/ups.php:text_us_origin_01
+#. shipping/ups.php:text_eu_origin_01
+msgid "UPS Next Day Air"
+msgstr "UPS US Nächster Tag"
+
+#. shipping/ups.php:text_us_origin_02
+#. shipping/ups.php:text_eu_origin_02
+msgid "UPS 2nd Day Air"
+msgstr "UPS US Übernächster Tag Luft"
+
+#. shipping/ups.php:text_us_origin_03
+#. shipping/ups.php:text_eu_origin_03
+msgid "UPS Ground"
+msgstr "UPS US Normal"
+
+#. shipping/ups.php:text_us_origin_07
+#. shipping/ups.php:text_ca_origin_07
+msgid "UPS Worldwide Express"
+msgstr "UPS US Weltweit Express"
+
+#. shipping/ups.php:text_us_origin_08
+#. shipping/ups.php:text_ca_origin_08
+#. shipping/ups.php:text_other_origin_08
+msgid "UPS Worldwide Expedited"
+msgstr "UPS US Weltweit Beschleunigt"
+
+#. shipping/ups.php:text_us_origin_11
+#. shipping/ups.php:text_ca_origin_11
+#. shipping/ups.php:text_eu_origin_11
+#. shipping/ups.php:text_other_origin_11
+msgid "UPS Standard"
+msgstr "UPS US Standard"
+
+#. shipping/ups.php:text_us_origin_12
+#. shipping/ups.php:text_ca_origin_12
+msgid "UPS 3 Day Select"
+msgstr "UPS US 3-Tage"
+
+#. shipping/ups.php:text_us_origin_13
+msgid "UPS Next Day Air Saver"
+msgstr "UPS US Nächster Tag Luft Spartarif"
+
+#. shipping/ups.php:text_us_origin_14
+#. shipping/ups.php:text_eu_origin_14
+msgid "UPS Next Day Air Early A.M."
+msgstr "UPS US Nächster Tag Luft Vormittag"
+
+#. shipping/ups.php:text_us_origin_54
+#. shipping/ups.php:text_ca_origin_54
+#. shipping/ups.php:text_eu_origin_54
+#. shipping/ups.php:text_other_origin_54
+msgid "UPS Worldwide Express Plus"
+msgstr "UPS US Weltweit Express Plus"
+
+#. shipping/ups.php:text_us_origin_59
+msgid "UPS 2nd Day Air A.M."
+msgstr "UPS US Übernächster Tag Vormittag"
+
+#. shipping/ups.php:text_us_origin_65
+#. shipping/ups.php:text_ca_origin_13
+#. shipping/ups.php:text_ca_origin_65
+#. shipping/ups.php:text_eu_origin_65
+#. shipping/ups.php:text_mx_origin_65
+#. shipping/ups.php:text_other_origin_65
+msgid "UPS Saver"
+msgstr "UPS US Spartarif"
+
+#. shipping/ups.php:text_ca_origin_01
+#. shipping/ups.php:text_eu_origin_07
+#. shipping/ups.php:text_mx_origin_07
+#. shipping/ups.php:text_other_origin_07
+msgid "UPS Express"
+msgstr "UPS CA Express"
+
+#. shipping/ups.php:text_ca_origin_02
+#. shipping/ups.php:text_eu_origin_08
+#. shipping/ups.php:text_mx_origin_08
+msgid "UPS Expedited"
+msgstr "UPS CA Beschleunigt"
+
+#. shipping/ups.php:text_ca_origin_14
+msgid "UPS Express Early A.M."
+msgstr "UPS CA Express Früher Vormittag"
+
+#. shipping/ups.php:text_eu_origin_82
+msgid "UPS Today Standard"
+msgstr "UPS EU Heute Standard"
+
+#. shipping/ups.php:text_eu_origin_83
+msgid "UPS Today Dedicated Courier"
+msgstr "UPS EU Heute Expresskurier"
+
+#. shipping/ups.php:text_eu_origin_84
+msgid "UPS Today Intercity"
+msgstr "UPS EU Heute Intercity"
+
+#. shipping/ups.php:text_eu_origin_85
+msgid "UPS Today Express"
+msgstr "UPS EU Heute Expresskurier"
+
+#. shipping/ups.php:text_eu_origin_86
+msgid "UPS Today Express Saver"
+msgstr "UPS EU Heute Express Spartarif"
+
+#. shipping/ups.php:text_mx_origin_54
+msgid "UPS Express Plus"
+msgstr "UPS MX Express Plus"
+
+#. shipping/usps.php:text_title
+msgid "United States Postal Service"
+msgstr "United States Postal Service"
+
+#. shipping/weight.php:text_title
+msgid "Weight Based Shipping"
+msgstr "Versand nach Gewicht"
+
+#. api/cart.php:error_store
+msgid "Product can not be bought from the store you have choosen!"
+msgstr ""
+
+#. api/coupon.php:error_coupon
+msgid "Warning: Coupon is either invalid, expired or reached it's usage limit!"
+msgstr ""
+
+#. api/customer.php:text_success
+msgid "You have successfully modified customers"
+msgstr ""
+
+#. api/order.php:text_success
+msgid "You order has been successfully modified orders"
+msgstr ""
+
+#. api/order.php:error_customer
+msgid "Customer details needs to be set!"
+msgstr ""
+
+#. api/order.php:error_payment_address
+msgid "Payment address needs to be set!"
+msgstr ""
+
+#. api/order.php:error_payment_method
+msgid "Payment method needs to be set!"
+msgstr ""
+
+#. api/order.php:error_shipping_address
+msgid "Shipping address needs to be set!"
+msgstr ""
+
+#. api/order.php:error_shipping_method
+msgid "Shipping method needs to be set!"
+msgstr ""
+
+#. api/payment.php:text_address
+msgid "Success: Payment address has been set!"
+msgstr ""
+
+#. api/payment.php:text_method
+#. api/shipping.php:text_method
+msgid "Success: Payment method has been set!"
+msgstr ""
+
+#. api/payment.php:error_permission
+#. api/shipping.php:error_permission
+msgid ""
+"You do not have permission to access this page, please refer to your system "
+"administrator."
+msgstr ""
+
+#. api/payment.php:error_city
+#. api/shipping.php:error_city
+msgid "City must be between 3 and 128 characters!"
+msgstr ""
+
+#. api/payment.php:error_postcode
+#. api/shipping.php:error_postcode
+msgid "Postcode must be between 2 and 10 characters for this country!"
+msgstr ""
+
+#. api/payment.php:error_methods
+msgid "Warning: Payment methods required!"
+msgstr ""
+
+#. api/payment.php:error_no_payment
+msgid "Warning: No Payment options are available!"
+msgstr ""
+
+#. api/shipping.php:text_address
+msgid "Success: Shipping address has been set!"
+msgstr ""
+
+#. api/shipping.php:error_warning
+msgid "Warning: Please check the form carefully for errors!"
+msgstr ""
+
+#. api/shipping.php:error_no_shipping
+msgid "Warning: No Shipping options are available!"
+msgstr ""
+
+#. api/voucher.php:text_for
+#. account/voucher.php:text_for
+#, possible-php-format
+msgid "%s Gift Certificate for %s"
+msgstr ""
+
+#. api/voucher.php:error_to_name
+#. account/voucher.php:error_to_name
+msgid "Recipient's Name must be between 1 and 64 characters!"
+msgstr "Empfängername muss zwischen 1 und 64 Zeichen lang sein!"
+
+#. api/voucher.php:error_from_name
+#. account/voucher.php:error_from_name
+msgid "Your Name must be between 1 and 64 characters!"
+msgstr "Eigener Name muss zwischen 1 und 64 Zeichen lang sein!"
+
+#. api/voucher.php:error_theme
+#. account/voucher.php:error_theme
+msgid "You must select a theme!"
+msgstr "Es muss ein Thema gewählt werden!"
+
+#. api/voucher.php:error_amount
+#. account/voucher.php:error_amount
+#, possible-php-format
+msgid "Amount must be between %s and %s!"
+msgstr ""
+
+#. mail/affiliate.php:text_subject
+#, possible-php-format
+msgid "%s - Affiliate Program"
+msgstr ""
+
+#. mail/affiliate.php:text_welcome
+#, possible-php-format
+msgid "Thank you for joining the %s Affiliate Program!"
+msgstr ""
+
+#. mail/affiliate.php:text_login
+#. mail/customer.php:text_login
+msgid ""
+"Your account has now been created and you can log in by using your email "
+"address and password by visiting our website or at the following URL:"
+msgstr "Das Konto wurde erfolgreich erstellt, die Anmeldung kann ab sofort mit Emailadresse und Passwort unter folgender Adresse erfolgen:"
+
+#. mail/affiliate.php:text_approval
+#. mail/customer.php:text_approval
+msgid ""
+"Your account must be approved before you can login. Once approved you can "
+"log in by using your email address and password by visiting our website or "
+"at the following URL:"
+msgstr "Das Konto muss noch genehmigt werden bevor eine Anmeldung möglich ist. Sobald dieser Vorgang erledigt ist, kann die Anmeldung mit Emailadresse sowie Passwort unter folgender Adresse erfolgen:"
+
+#. mail/affiliate.php:text_services
+msgid ""
+"Upon logging in, you will be able to generate tracking codes, track "
+"commission payments and edit your account information."
+msgstr "Nach der Anmeldung können Trackingcodes erstellt, Provisionszahlungen verfolgt sowie Kontoinformationen bearbeitet werden."
+
+#. mail/affiliate.php:text_thanks
+#. mail/customer.php:text_thanks
+msgid "Thanks,"
+msgstr "Danke,"
+
+#. mail/affiliate.php:text_new_affiliate
+#. affiliate/login.php:text_new_affiliate
+msgid "New Affiliate"
+msgstr "Neuer Partner"
+
+#. mail/affiliate.php:text_signup
+msgid "A new affiliate has signed up:"
+msgstr ""
+
+#. mail/affiliate.php:text_store
+msgid "Store:"
+msgstr ""
+
+#. mail/affiliate.php:text_firstname
+msgid "Firstname:"
+msgstr ""
+
+#. mail/affiliate.php:text_lastname
+msgid "Lastname:"
+msgstr ""
+
+#. mail/affiliate.php:text_company
+msgid "Company:"
+msgstr ""
+
+#. mail/affiliate.php:text_email
+#. mail/customer.php:text_email
+msgid "E-Mail:"
+msgstr "Email:"
+
+#. mail/affiliate.php:text_telephone
+#. mail/customer.php:text_telephone
+#. mail/order.php:text_new_telephone
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#. mail/affiliate.php:text_website
+#. mail/customer.php:text_website
+msgid "Web Site:"
+msgstr "Webseite:"
+
+#. mail/affiliate.php:text_order_id
+#. mail/order.php:text_new_order_id
+#. mail/order.php:text_update_order
+#. account/order.php:text_order_id
+#. account/return.php:text_order_id
+msgid "Order ID:"
+msgstr "Auftragsnr."
+
+#. mail/affiliate.php:text_transaction_subject
+#, possible-php-format
+msgid "%s - Affiliate Commission"
+msgstr ""
+
+#. mail/affiliate.php:text_transaction_received
+#, possible-php-format
+msgid "You have received %s commission!"
+msgstr ""
+
+#. mail/affiliate.php:text_transaction_total
+#, possible-php-format
+msgid "Your total amount of commission is now %s."
+msgstr ""
+
+#. mail/customer.php:text_subject
+#, possible-php-format
+msgid "%s - Thank you for registering"
+msgstr ""
+
+#. mail/customer.php:text_welcome
+#, possible-php-format
+msgid "Welcome and thank you for registering at %s!"
+msgstr ""
+
+#. mail/customer.php:text_services
+msgid ""
+"Upon logging in, you will be able to access other services including "
+"reviewing past orders, printing invoices and editing your account "
+"information."
+msgstr "Nach der Anmeldung können Dienste wie Auftragsablauf, Rechnungsnachdruck, Änderung der persönlichen Informationen, usw. verwendet werden."
+
+#. mail/customer.php:text_new_customer
+msgid "New customer"
+msgstr "Neuer Kunde"
+
+#. mail/customer.php:text_signup
+msgid "A new customer has signed up:"
+msgstr "Ein neuer Kunde hat sich angemeldet:"
+
+#. mail/customer.php:text_customer_group
+msgid "Customer Group:"
+msgstr "Kundengruppe:"
+
+#. mail/customer.php:text_firstname
+msgid "First Name:"
+msgstr "Vorname:"
+
+#. mail/customer.php:text_lastname
+msgid "Last Name:"
+msgstr "Nachname:"
+
+#. mail/forgotten.php:text_subject
+#, possible-php-format
+msgid "%s - New Password"
+msgstr ""
+
+#. mail/forgotten.php:text_greeting
+#, possible-php-format
+msgid "A new password was requested from %s."
+msgstr ""
+
+#. mail/forgotten.php:text_password
+msgid "Your new password is:"
+msgstr "Das neue Passwort lautet:"
+
+#. mail/order.php:text_new_subject
+#, possible-php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#. mail/order.php:text_new_greeting
+#, possible-php-format
+msgid ""
+"Thank you for your interest in %s products. Your order has been received and "
+"will be processed once payment has been confirmed."
+msgstr ""
+
+#. mail/order.php:text_new_received
+msgid "You have received an order."
+msgstr "Es ist eine neue Bestellung eingegangen."
+
+#. mail/order.php:text_new_link
+#. mail/order.php:text_update_link
+msgid "To view your order click on the link below:"
+msgstr "Bitte auf den Link unten klicken, um den Auftrag anzusehen:"
+
+#. mail/order.php:text_new_order_detail
+#. account/order.php:text_order_detail
+msgid "Order Details"
+msgstr "Auftragsdetails"
+
+#. mail/order.php:text_new_instruction
+msgid "Instructions"
+msgstr "Anmerkung"
+
+#. mail/order.php:text_new_date_added
+#. account/order.php:text_date_added
+#. account/return.php:text_date_added
+msgid "Date Added:"
+msgstr "Erstellt am"
+
+#. mail/order.php:text_new_order_status
+msgid "Order Status:"
+msgstr "Aktueller Status"
+
+#. mail/order.php:text_new_payment_method
+#. account/order.php:text_payment_method
+msgid "Payment Method:"
+msgstr "Zahlungsart"
+
+#. mail/order.php:text_new_shipping_method
+#. account/order.php:text_shipping_method
+msgid "Shipping Method:"
+msgstr "Zustellart"
+
+#. mail/order.php:text_new_email
+msgid "Email:"
+msgstr "Email"
+
+#. mail/order.php:text_new_ip
+msgid "IP Address:"
+msgstr "IP-Adresse"
+
+#. mail/order.php:text_new_payment_address
+#. account/order.php:text_payment_address
+msgid "Payment Address"
+msgstr "Rechnungsadresse"
+
+#. mail/order.php:text_new_shipping_address
+#. account/order.php:text_shipping_address
+msgid "Shipping Address"
+msgstr "Zustelladresse"
+
+#. mail/order.php:text_new_order_total
+msgid "Order Totals"
+msgstr "Bestellsumme"
+
+#. mail/order.php:text_new_download
+msgid ""
+"Once your payment has been confirmed you can click on the link below to "
+"access your downloadable products:"
+msgstr "Sobald die Zahlung eingegangen ist, kann nachstehender Link für den Download verwendet werden:"
+
+#. mail/order.php:text_new_comment
+#. mail/order.php:text_update_comment
+msgid "The comments for your order are:"
+msgstr "Kommentar zur Bestellung"
+
+#. mail/order.php:text_new_footer
+#. mail/order.php:text_update_footer
+#. mail/voucher.php:text_footer
+msgid "Please reply to this email if you have any questions."
+msgstr "Bei weiteren Fragen bitte auf dieses Email antworten."
+
+#. mail/order.php:text_update_subject
+#, possible-php-format
+msgid "%s - Order Update %s"
+msgstr ""
+
+#. mail/order.php:text_update_date_added
+msgid "Date Ordered:"
+msgstr "Bestelldatum"
+
+#. mail/order.php:text_update_order_status
+msgid "Your order has been updated to the following status:"
+msgstr "Die Bestellung wurde auf folgenden Status geändert"
+
+#. mail/review.php:text_subject
+#, possible-php-format
+msgid "%s - Product Review"
+msgstr ""
+
+#. mail/review.php:text_waiting
+msgid "You have a new product review waiting."
+msgstr ""
+
+#. mail/review.php:text_product
+#, possible-php-format
+msgid "Product: %s"
+msgstr ""
+
+#. mail/review.php:text_reviewer
+#, possible-php-format
+msgid "Reviewer: %s"
+msgstr ""
+
+#. mail/review.php:text_rating
+#, possible-php-format
+msgid "Rating: %s"
+msgstr ""
+
+#. mail/review.php:text_review
+msgid "Review Text:"
+msgstr ""
+
+#. mail/voucher.php:text_subject
+#, possible-php-format
+msgid "You have been sent a gift voucher from %s"
+msgstr ""
+
+#. mail/voucher.php:text_greeting
+#, possible-php-format
+msgid "Congratulations, You have received a Gift Certificate worth %s"
+msgstr ""
+
+#. mail/voucher.php:text_from
+#, possible-php-format
+msgid "This Gift Certificate has been sent to you by %s"
+msgstr ""
+
+#. mail/voucher.php:text_message
+msgid "With a message saying"
+msgstr "Folgende Nachricht wurde dazu verfasst"
+
+#. mail/voucher.php:text_redeem
+#, possible-php-format
+msgid ""
+"To redeem this Gift Certificate, write down the redemption code which is <b>"
+"%s</b> then click on the the link below and purchase the product you wish to "
+"use this gift voucher on. You can enter the gift voucher code on the "
+"shopping cart page before you click checkout."
+msgstr ""
+
+#. module/account.php:heading_title
+#. affiliate/account.php:text_account
+#. affiliate/edit.php:text_account
+#. affiliate/forgotten.php:text_account
+#. affiliate/login.php:text_account
+#. affiliate/logout.php:text_account
+#. affiliate/password.php:text_account
+#. affiliate/payment.php:text_account
+#. affiliate/register.php:text_account
+#. affiliate/success.php:text_account
+#. affiliate/tracking.php:text_account
+#. affiliate/transaction.php:text_account
+#. account/account.php:text_account
+#. account/address.php:text_account
+#. account/download.php:text_account
+#. account/edit.php:text_account
+#. account/forgotten.php:text_account
+#. account/login.php:text_account
+#. account/logout.php:text_account
+#. account/newsletter.php:text_account
+#. account/order.php:text_account
+#. account/password.php:text_account
+#. account/recurring.php:text_account
+#. account/register.php:text_account
+#. account/return.php:text_account
+#. account/reward.php:text_account
+#. account/success.php:text_account
+#. account/transaction.php:text_account
+#. account/voucher.php:text_account
+#. account/wishlist.php:text_account
+msgid "Account"
+msgstr "Konto"
+
+#. module/account.php:text_register
+#. module/affiliate.php:text_register
+#. account/register.php:text_register
+msgid "Register"
+msgstr "Neues Konto anlegen"
+
+#. module/account.php:text_logout
+#. module/affiliate.php:text_logout
+#. affiliate/logout.php:text_logout
+#. account/logout.php:text_logout
+msgid "Logout"
+msgstr "Abmelden"
+
+#. module/account.php:text_edit
+#. module/affiliate.php:text_edit
+msgid "Edit Account"
+msgstr "Daten bearbeiten"
+
+#. module/account.php:text_address
+msgid "Address Books"
+msgstr "Adressbuch"
+
+#. module/account.php:text_wishlist
+#. common/footer.php:text_wishlist
+msgid "Wish List"
+msgstr "Wunschliste"
+
+#. module/account.php:text_reward
+#. account/reward.php:text_reward
+msgid "Reward Points"
+msgstr "Bonuspunkte"
+
+#. module/account.php:text_return
+#. common/footer.php:text_return
+msgid "Returns"
+msgstr "Retouren"
+
+#. module/account.php:text_transaction
+#. module/affiliate.php:text_transaction
+#. account/account.php:text_transactions
+#. account/recurring.php:text_transactions
+msgid "Transactions"
+msgstr "Transaktionen"
+
+#. module/account.php:text_newsletter
+#. account/account.php:text_my_newsletter
+#. account/newsletter.php:text_newsletter
+#. account/register.php:text_newsletter
+#. common/footer.php:text_newsletter
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#. module/account.php:text_recurring
+#. account/account.php:text_recurring
+#. account/recurring.php:heading_title
+msgid "Recurring payments"
+msgstr "Wiederholende Zahlungen"
+
+#. module/affiliate.php:heading_title
+msgid "Affiliate"
+msgstr "Partner"
+
+#. module/affiliate.php:text_payment
+msgid "Payment Options"
+msgstr "Zahlungsoptionen"
+
+#. module/affiliate.php:text_tracking
+#. affiliate/tracking.php:heading_title
+msgid "Affiliate Tracking"
+msgstr "Partnerauswertung"
+
+#. module/bestseller.php:heading_title
+msgid "Bestsellers"
+msgstr "Bestseller"
+
+#. module/category.php:heading_title
+#. common/header.php:text_category
+msgid "Categories"
+msgstr "Kategorien"
+
+#. module/featured.php:heading_title
+msgid "Featured"
+msgstr "Empfehlungen"
+
+#. module/google_talk.php:heading_title
+msgid "Live Chat"
+msgstr "Live Chat"
+
+#. module/latest.php:heading_title
+msgid "Latest"
+msgstr "Neuigkeiten"
+
+#. module/special.php:heading_title
+#. common/footer.php:text_special
+msgid "Specials"
+msgstr "Angebote"
+
+#. module/store.php:heading_title
+msgid "Choose a Store"
+msgstr "Shop wählen"
+
+#. module/store.php:text_store
+msgid "Please choose the store you wish to visit."
+msgstr "Bitte gewünschten Shop auswählen."
+
+#. module/welcome.php:heading_title
+#, possible-php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#. total/coupon.php:text_coupon
+#, possible-php-format
+msgid "Coupon (%s)"
+msgstr ""
+
+#. total/credit.php:text_credit
+msgid "Store Credit"
+msgstr "Guthaben"
+
+#. total/credit.php:text_order_id
+#. total/reward.php:text_order_id
+#, possible-php-format
+msgid "Order ID: #%s"
+msgstr ""
+
+#. total/handling.php:text_handling
+msgid "Handling Fee"
+msgstr "Bearbeitungsgebühr"
+
+#. total/klarna_fee.php:text_klarna_fee
+msgid "Klarna Fee"
+msgstr "Klarna Gebühr"
+
+#. total/low_order_fee.php:text_low_order_fee
+msgid "Low Order Fee"
+msgstr "Mindermengenzuschlag"
+
+#. total/reward.php:text_reward
+#, possible-php-format
+msgid "Reward Points (%s)"
+msgstr ""
+
+#. total/sub_total.php:text_sub_total
+msgid "Sub-Total"
+msgstr "Zwischensumme"
+
+#. total/voucher.php:text_voucher
+#, possible-php-format
+msgid "Voucher (%s)"
+msgstr ""
+
+#. affiliate/account.php:heading_title
+#. affiliate/account.php:text_my_account
+msgid "My Affiliate Account"
+msgstr "Mein Partnerkonto"
+
+#. affiliate/account.php:text_my_tracking
+msgid "My Tracking Information"
+msgstr "Meine Codes"
+
+#. affiliate/account.php:text_my_transactions
+msgid "My Transactions"
+msgstr "Bisherige Transaktionen"
+
+#. affiliate/account.php:text_edit
+#. account/account.php:text_edit
+msgid "Edit your account information"
+msgstr "Kontoeinstellungen bearbeiten"
+
+#. affiliate/account.php:text_password
+#. account/account.php:text_password
+msgid "Change your password"
+msgstr "Passwort ändern"
+
+#. affiliate/account.php:text_payment
+msgid "Change your payment preferences"
+msgstr "Zahlungseinstellung ändern"
+
+#. affiliate/account.php:text_tracking
+msgid "Custom Affiliate Tracking Code"
+msgstr "Partnerprogramm Code"
+
+#. affiliate/account.php:text_transaction
+msgid "View your transaction history"
+msgstr "Transaktionsverlauf"
+
+#. affiliate/edit.php:heading_title
+#. account/edit.php:heading_title
+msgid "My Account Information"
+msgstr "Kontoinformationen"
+
+#. affiliate/edit.php:text_edit
+#. account/edit.php:text_edit
+msgid "Edit Information"
+msgstr "Informationen bearbeiten"
+
+#. affiliate/edit.php:text_success
+#. affiliate/payment.php:text_success
+#. account/edit.php:text_success
+msgid "Success: Your account has been successfully updated."
+msgstr "Datensatz erfolgreich geändert."
+
+#. affiliate/edit.php:entry_website
+#. affiliate/register.php:entry_website
+msgid "Web Site"
+msgstr "Webseite"
+
+#. affiliate/edit.php:error_exists
+#. account/edit.php:error_exists
+msgid "Warning: E-Mail address is already registered!"
+msgstr "Diese Emailadresse kann nicht verwendet werden!"
+
+#. affiliate/forgotten.php:heading_title
+#. account/forgotten.php:heading_title
+msgid "Forgot Your Password?"
+msgstr "Passwort vergessen"
+
+#. affiliate/forgotten.php:text_your_email
+#. account/forgotten.php:text_your_email
+msgid "Your E-Mail Address"
+msgstr "Meine Emailadresse"
+
+#. affiliate/forgotten.php:text_email
+msgid ""
+"Enter the e-mail address associated with your account. Click submit to have "
+"your password e-mailed to you"
+msgstr "Bitte die dem Konto zugeordnete Emailadresse eintragen und mit Klick auf \"Weiter\" bestätigen. Es wird dann umgehend ein neues Passwort an diese Emailadresse gesendet."
+
+#. affiliate/forgotten.php:text_success
+#. account/forgotten.php:text_success
+msgid "Success: A new password has been sent to your e-mail address."
+msgstr "Email mit neuem Passwort wurde erfolgreich gesendet."
+
+#. affiliate/forgotten.php:error_email
+#. account/forgotten.php:error_email
+msgid ""
+"Warning: The E-Mail Address was not found in our records, please try again!"
+msgstr "Dieser Emailadresse ist kein Konto zugeordnet. Bitte Vorgang wiederholen oder ein neues Konto anlegen!"
+
+#. affiliate/login.php:heading_title
+#. affiliate/register.php:heading_title
+msgid "Affiliate Program"
+msgstr "Partnerprogramm"
+
+#. affiliate/login.php:text_description
+#, possible-php-format
+msgid ""
+"<p>%s affiliate program is free and enables members to earn revenue by "
+"placing a link or links on their web site which advertises %s or specific "
+"products on it. Any sales made to customers who have clicked on those links "
+"will earn the affiliate commission. The standard commission rate is "
+"currently %s.</p><p>For more information, visit our FAQ page or see our "
+"Affiliate terms &amp; conditions.</p>"
+msgstr ""
+
+#. affiliate/login.php:text_register_account
+msgid ""
+"<p>I am not currently an affiliate.</p><p>Click Continue below to create a "
+"new affiliate account. Please note that this is not connected in any way to "
+"your customer account.</p>"
+msgstr "<p>Ich bin noch kein Partner.</p><p>Bitte auf Weiter klicken, um ein neues Partnerkonto zu erstellen. Dieses Partnerkonto ist unabhängig vom Kundenkonto.</p>"
+
+#. affiliate/login.php:text_returning_affiliate
+msgid "Affiliate Login"
+msgstr "Partnerlogin"
+
+#. affiliate/login.php:text_i_am_returning_affiliate
+msgid "I am a returning affiliate."
+msgstr "Ich bin bereits Partner"
+
+#. affiliate/login.php:entry_email
+msgid "Affiliate E-Mail"
+msgstr "Partneremail"
+
+#. affiliate/logout.php:heading_title
+#. account/logout.php:heading_title
+msgid "Account Logout"
+msgstr "Abmeldung"
+
+#. affiliate/logout.php:text_message
+msgid "<p>You have been logged off your Affiliate Account.</p>"
+msgstr "<p>Abmeldung erfolgreich ausgeführt.</p>"
+
+#. affiliate/password.php:heading_title
+#. account/password.php:heading_title
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+#. affiliate/password.php:text_success
+#. account/password.php:text_success
+msgid "Success: Your password has been successfully updated."
+msgstr "Passwort wurde erfolgreich geändert."
+
+#. affiliate/password.php:error_password
+#. affiliate/register.php:error_password
+#. account/password.php:error_password
+#. account/register.php:error_password
+msgid "Password must be between 4 and 20 characters!"
+msgstr "Passwort muss zwischen 4 und 20 Zeichen lang sein!"
+
+#. affiliate/payment.php:heading_title
+#. affiliate/payment.php:entry_payment
+#. affiliate/register.php:entry_payment
+msgid "Payment Method"
+msgstr "Zahlungsart"
+
+#. affiliate/payment.php:text_payment
+#. account/recurring.php:text_transaction_payment
+msgid "Payment"
+msgstr "Zahlung"
+
+#. affiliate/payment.php:text_your_payment
+#. affiliate/register.php:text_payment
+msgid "Payment Information"
+msgstr "Zahlungsinformationen"
+
+#. affiliate/payment.php:text_cheque
+#. affiliate/register.php:text_cheque
+msgid "Cheque"
+msgstr "Scheck"
+
+#. affiliate/payment.php:entry_tax
+#. affiliate/register.php:entry_tax
+msgid "Tax ID"
+msgstr "Steuernummer (UID)"
+
+#. affiliate/payment.php:entry_cheque
+#. affiliate/register.php:entry_cheque
+msgid "Cheque Payee Name"
+msgstr "Name Scheckempfänger"
+
+#. affiliate/payment.php:entry_paypal
+#. affiliate/register.php:entry_paypal
+msgid "PayPal Email Account"
+msgstr "PayPal Email"
+
+#. affiliate/payment.php:entry_bank_name
+#. affiliate/register.php:entry_bank_name
+msgid "Bank Name"
+msgstr "Name der Bank"
+
+#. affiliate/payment.php:entry_bank_branch_number
+#. affiliate/register.php:entry_bank_branch_number
+msgid "ABA/BSB number (Branch Number)"
+msgstr "BIC/ABA/BSB Nummer"
+
+#. affiliate/payment.php:entry_bank_swift_code
+#. affiliate/register.php:entry_bank_swift_code
+msgid "SWIFT Code"
+msgstr "IBAN (SWIFT)"
+
+#. affiliate/payment.php:entry_bank_account_name
+#. affiliate/register.php:entry_bank_account_name
+msgid "Account Name"
+msgstr "Kontoinhaber"
+
+#. affiliate/payment.php:entry_bank_account_number
+#. affiliate/register.php:entry_bank_account_number
+msgid "Account Number"
+msgstr "Kontonummer"
+
+#. affiliate/register.php:text_register
+msgid "Affiliate Register"
+msgstr "Partnerkonto anlegen"
+
+#. affiliate/register.php:text_account_already
+#. account/register.php:text_account_already
+#, possible-php-format
+msgid ""
+"If you already have an account with us, please login at the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+
+#. affiliate/register.php:text_signup
+msgid ""
+"To create an affiliate account, fill in the form below ensuring you complete "
+"all the required fields:"
+msgstr "Um ein neues Partnerkonto zu erstellen bitte alle Felder ausfüllen:"
+
+#. affiliate/register.php:text_your_address
+msgid "Your Address Details"
+msgstr "Adressdetails"
+
+#. affiliate/success.php:heading_title
+msgid "Your Affiliate Account Has Been Created!"
+msgstr "Partnerkonto wurde erstellt!"
+
+#. affiliate/success.php:text_message
+#, possible-php-format
+msgid ""
+"<p>Congratulations! Your new account has been successfully created!</p> "
+"<p>You can now take advantage of member privileges to enhance your online "
+"shopping experience with us.</p> <p>If you have ANY questions about the "
+"operation of this online shop, please email the store owner.</p> <p>A "
+"confirmation has been sent to the provided email address. If you have not "
+"received it within the hour, please <a href=\"%s\">contact us</a>.</p>"
+msgstr ""
+
+#. affiliate/success.php:text_approval
+#, possible-php-format
+msgid ""
+"<p>Thank you for registering for an affiliate account with %s!</p><p>You "
+"will be notified by email once your account has been activated by the store "
+"owner.</p><p>If you have ANY questions about the operation of this affiliate "
+"system, please <a href=\"%s\">contact the store owner</a>.</p>"
+msgstr ""
+
+#. affiliate/tracking.php:text_description
+#, possible-php-format
+msgid ""
+"To make sure you get paid for referrals you send to us we need to track the "
+"referral by placing a tracking code in the URL's linking to us. You can use "
+"the tools below to generate links to the %s web site."
+msgstr ""
+
+#. affiliate/tracking.php:entry_code
+msgid "Your Tracking Code"
+msgstr ""
+
+#. affiliate/tracking.php:entry_generator
+msgid "Tracking Link Generator"
+msgstr ""
+
+#. affiliate/tracking.php:entry_link
+msgid "Tracking Link"
+msgstr ""
+
+#. affiliate/tracking.php:help_generator
+msgid "Type in the name of a product you would like to link to"
+msgstr ""
+
+#. affiliate/transaction.php:heading_title
+#. affiliate/transaction.php:text_transaction
+#. account/account.php:text_transaction
+#. account/transaction.php:heading_title
+#. account/transaction.php:text_transaction
+msgid "Your Transactions"
+msgstr "Transaktionen"
+
+#. affiliate/transaction.php:column_date_added
+#. account/download.php:column_date_added
+#. account/order.php:column_date_added
+#. account/return.php:column_date_added
+#. account/reward.php:column_date_added
+#. account/transaction.php:column_date_added
+msgid "Date Added"
+msgstr "Erstellt am"
+
+#. affiliate/transaction.php:column_amount
+#. account/transaction.php:column_amount
+#, possible-php-format
+msgid "Amount (%s)"
+msgstr ""
+
+#. affiliate/transaction.php:text_balance
+#. account/transaction.php:text_total
+msgid "Your current balance is:"
+msgstr "Aktueller Saldo"
+
+#. affiliate/transaction.php:text_empty
+#. account/transaction.php:text_empty
+msgid "You do not have any transactions!"
+msgstr "Noch keine Transaktionen vorhanden."
+
+#. account/account.php:text_my_orders
+msgid "My Orders"
+msgstr "Bisherige Bestellungen"
+
+#. account/account.php:text_address
+msgid "Modify your address book entries"
+msgstr "Adressbuch"
+
+#. account/account.php:text_wishlist
+msgid "Modify your wish list"
+msgstr "Wunschzettel ändern"
+
+#. account/account.php:text_order
+msgid "View your order history"
+msgstr "Bestellungen / Aufträge"
+
+#. account/account.php:text_reward
+#. account/reward.php:heading_title
+msgid "Your Reward Points"
+msgstr "Bonuspunkte"
+
+#. account/account.php:text_return
+msgid "View your return requests"
+msgstr "Retouren"
+
+#. account/account.php:text_newsletter
+msgid "Subscribe / unsubscribe to newsletter"
+msgstr "Newsletter an- / abmelden"
+
+#. account/address.php:text_address_book
+msgid "Address Book Entries"
+msgstr "Adressen"
+
+#. account/address.php:text_edit_address
+msgid "Edit Address"
+msgstr "Adresse bearbeiten"
+
+#. account/address.php:text_add
+msgid "Your address has been successfully inserted"
+msgstr ""
+
+#. account/address.php:text_edit
+msgid "Your address has been successfully updated"
+msgstr ""
+
+#. account/address.php:text_delete
+msgid "Your address has been successfully deleted"
+msgstr "Adresse erfolgreich gelöscht"
+
+#. account/address.php:text_empty
+msgid "You have no addresses in your account."
+msgstr ""
+
+#. account/address.php:entry_default
+msgid "Default Address"
+msgstr "Standardadresse"
+
+#. account/address.php:error_delete
+msgid "Warning: You must have at least one address!"
+msgstr "Es muss mindestens eine Adresse angegeben werden!"
+
+#. account/address.php:error_default
+msgid "Warning: You can not delete your default address!"
+msgstr "Die Standardadresse kann nicht gelöscht werden!"
+
+#. account/address.php:error_vat
+msgid "VAT number is invalid!"
+msgstr "Steuernummer ist ungültig!"
+
+#. account/address.php:error_address_1
+msgid "Address must be between 3 and 128 characters!"
+msgstr "Strasse muss zwischen 3 und 128 Zeichen lang sein!"
+
+#. account/download.php:heading_title
+msgid "Account Downloads"
+msgstr "Downloads"
+
+#. account/download.php:text_empty
+msgid "You have not made any previous downloadable orders!"
+msgstr "Es wurden bisher noch keine Bestellungen für Downloads getätigt!"
+
+#. account/download.php:column_order_id
+#. account/order.php:column_order_id
+#. account/return.php:column_order_id
+#. account/return.php:entry_order_id
+msgid "Order ID"
+msgstr "Auftragsnr."
+
+#. account/download.php:column_name
+msgid "Name"
+msgstr ""
+
+#. account/download.php:column_size
+msgid "Size"
+msgstr ""
+
+#. account/forgotten.php:text_email
+msgid ""
+"Enter the e-mail address associated with your account. Click submit to have "
+"your password e-mailed to you."
+msgstr "Bitte die dem Konto zugeordnete Emailadresse eintragen und mit Klick auf \"Weiter\" bestätigen. Es wird dann umgehend ein neues Passwort an diese Emailadresse gesendet."
+
+#. account/login.php:heading_title
+msgid "Account Login"
+msgstr "Anmeldung"
+
+#. account/logout.php:text_message
+msgid ""
+"<p>You have been logged off your account. It is now safe to leave the "
+"computer.</p><p>Your shopping cart has been saved, the items inside it will "
+"be restored whenever you log back into your account.</p>"
+msgstr "<p>Abmeldung erfolgreich.</p><p>Die Einkaufsliste wurde gespeichert und wird nach erneutem Anmelden wieder angezeigt.</p>"
+
+#. account/newsletter.php:heading_title
+msgid "Newsletter Subscription"
+msgstr "Newsletter"
+
+#. account/newsletter.php:text_success
+msgid "Success: Your newsletter subscription has been successfully updated!"
+msgstr "An-/bzw. Abmeldung zum Newsletter erfolgreich eingetragen."
+
+#. account/newsletter.php:entry_newsletter
+#. account/register.php:entry_newsletter
+msgid "Subscribe"
+msgstr "Newsletter aktuell abonniert<span class=\"help\">Zum Ein- bzw. Austragen gewünschten Status auswählen und auf Weiter klicken</span>"
+
+#. account/order.php:text_order
+#. account/return.php:text_order
+msgid "Order Information"
+msgstr "Auftragsdaten"
+
+#. account/order.php:text_invoice_no
+msgid "Invoice No.:"
+msgstr "Rechnungsnr."
+
+#. account/order.php:text_comment
+msgid "Order Comments"
+msgstr "Kommentar(e)"
+
+#. account/order.php:text_empty
+msgid "You have not made any previous orders!"
+msgstr "Noch keine Aufträge vorhanden."
+
+#. account/order.php:text_error
+msgid "The order you requested could not be found!"
+msgstr "Der gewählte Auftrag ist nicht vorhanden!"
+
+#. account/order.php:column_product
+msgid "No. of Products"
+msgstr ""
+
+#. account/order.php:column_customer
+#. account/return.php:column_customer
+msgid "Customer"
+msgstr ""
+
+#. account/order.php:column_action
+#. account/recurring.php:text_action
+#. account/recurring.php:column_action
+#. account/return.php:column_action
+#. account/wishlist.php:column_action
+msgid "Action"
+msgstr "Aktion"
+
+#. account/order.php:column_status
+msgid "Order Status"
+msgstr "Status"
+
+#. account/order.php:column_comment
+#. account/return.php:column_comment
+msgid "Comment"
+msgstr "Kommentar"
+
+#. account/order.php:error_reorder
+#, possible-php-format
+msgid "%s is not currently available to be reordered."
+msgstr ""
+
+#. account/recurring.php:text_empty
+msgid "No recurring payment profiles found"
+msgstr "Keine Profile für wiederholende Zahlungen vorhanden"
+
+#. account/recurring.php:text_product
+msgid "Product: "
+msgstr "Produk "
+
+#. account/recurring.php:text_order
+msgid "Order: "
+msgstr "Auftrag "
+
+#. account/recurring.php:text_quantity
+msgid "Quantity: "
+msgstr "Anzahl "
+
+#. account/recurring.php:text_recurring
+msgid "Recurring payment"
+msgstr "Wiederholende Zahlung"
+
+#. account/recurring.php:text_empty_transactions
+msgid "No transactions for this profile"
+msgstr "Keine Transaktionen für dieses Profil"
+
+#. account/recurring.php:column_created
+#. account/recurring.php:text_transaction_created
+msgid "Created"
+msgstr "Erstellt"
+
+#. account/recurring.php:column_type
+msgid "Type"
+msgstr "Art"
+
+#. account/recurring.php:column_amount
+#. account/voucher.php:entry_amount
+msgid "Amount"
+msgstr "Betrag"
+
+#. account/recurring.php:column_status
+#. account/return.php:column_status
+msgid "Status"
+msgstr "Status"
+
+#. account/recurring.php:column_profile_id
+msgid "Profile ID"
+msgstr "Profilnr."
+
+#. account/recurring.php:text_recurring_detail
+msgid "Recurring payment details"
+msgstr "Details zu wiederholender Zahlung"
+
+#. account/recurring.php:text_recurring_id
+msgid "Profile ID: "
+msgstr "Profilnr. "
+
+#. account/recurring.php:text_payment_method
+msgid "Payment method: "
+msgstr "Zahlungsart "
+
+#. account/recurring.php:text_date_added
+msgid "Created: "
+msgstr "Erstellt "
+
+#. account/recurring.php:text_recurring_description
+msgid "Description: "
+msgstr "Beschreibung "
+
+#. account/recurring.php:text_status
+msgid "Status: "
+msgstr "Status "
+
+#. account/recurring.php:text_status_active
+msgid "Active"
+msgstr "Aktiv"
+
+#. account/recurring.php:text_status_inactive
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#. account/recurring.php:text_status_cancelled
+#. account/recurring.php:text_transaction_cancelled
+msgid "Cancelled"
+msgstr "Beendet"
+
+#. account/recurring.php:text_status_suspended
+#. account/recurring.php:text_transaction_suspended
+msgid "Suspended"
+msgstr "Ausgesetzt"
+
+#. account/recurring.php:text_status_expired
+#. account/recurring.php:text_transaction_expired
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#. account/recurring.php:text_status_pending
+msgid "Pending"
+msgstr "Wartestellung"
+
+#. account/recurring.php:text_transaction_outstanding_payment
+msgid "Outstanding payment"
+msgstr "Ausstehende Zahlung"
+
+#. account/recurring.php:text_transaction_skipped
+msgid "Payment skipped"
+msgstr "Zahlung übersprungen"
+
+#. account/recurring.php:text_transaction_failed
+msgid "Payment failed"
+msgstr "Zahlung fehlgeschlagen"
+
+#. account/recurring.php:text_transaction_suspended_failed
+msgid "Suspended from failed payment"
+msgstr "Ausgesetzt wg. fehlgeschlagener Zahlung"
+
+#. account/recurring.php:text_transaction_outstanding_failed
+msgid "Outstanding payment failed"
+msgstr "Ausstehende Zahlung fehlgeschlagen"
+
+#. account/recurring.php:error_not_cancelled
+#, possible-php-format
+msgid "Error: %s"
+msgstr ""
+
+#. account/recurring.php:error_not_found
+msgid "Could not cancel profile"
+msgstr "Profil konnte nicht beendet werden"
+
+#. account/recurring.php:success_cancelled
+msgid "Recurring payment has been cancelled"
+msgstr "Wiederholende Zahlung wurde beendet"
+
+#. account/return.php:heading_title
+msgid "Product Returns"
+msgstr "Produktrücksendungen"
+
+#. account/return.php:text_return
+msgid "Return Information"
+msgstr "Rücksendeinformationen"
+
+#. account/return.php:text_return_detail
+msgid "Return Details"
+msgstr "Rücksendedetails"
+
+#. account/return.php:text_description
+msgid "Please complete the form below to request an RMA number."
+msgstr "<p>Bitte Formular ausfüllen um eine Rücksendenummer zu erhalten.</p>"
+
+#. account/return.php:text_product
+msgid "Product Information &amp; Reason for Return"
+msgstr "Produktinformation &amp; Rücksendegrund"
+
+#. account/return.php:text_message
+msgid ""
+"<p>Thank you for submitting your return request. Your request has been sent "
+"to the relevant department for processing.</p><p> You will be notified via e-"
+"mail as to the status of your request.</p>"
+msgstr "<p>Vielen Dank für die Rücksendeanforderung, sie wird wird an die zuständige Abteilung zur Bearbeitung weitergeleitet.</p><p>Sobald sich der Status ändert, erfolgt eine Benachrichtigung per Email.</p>"
+
+#. account/return.php:text_return_id
+msgid "Return ID:"
+msgstr "Rücksendenummer"
+
+#. account/return.php:text_date_ordered
+msgid "Order Date:"
+msgstr "Auftragsdatum"
+
+#. account/return.php:text_status
+msgid "Status:"
+msgstr "Status"
+
+#. account/return.php:text_comment
+msgid "Return Comments"
+msgstr "Kommentar/Anmerkung"
+
+#. account/return.php:text_history
+msgid "Return History"
+msgstr "Rücksendeverlauf"
+
+#. account/return.php:text_empty
+msgid "You have not made any previous returns!"
+msgstr "Es wurden bisher noch keine Rücksendungen gemacht."
+
+#. account/return.php:column_return_id
+msgid "Return ID"
+msgstr ""
+
+#. account/return.php:column_opened
+msgid "Opened"
+msgstr "Geöffnet"
+
+#. account/return.php:column_reason
+msgid "Reason"
+msgstr "Grund"
+
+#. account/return.php:entry_date_ordered
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+#. account/return.php:entry_model
+msgid "Product Code"
+msgstr "Art.Nr."
+
+#. account/return.php:entry_reason
+msgid "Reason for Return"
+msgstr "Rücksendegrund"
+
+#. account/return.php:entry_opened
+msgid "Product is opened"
+msgstr "Produkt ist geöffnet"
+
+#. account/return.php:entry_fault_detail
+msgid "Faulty or other details"
+msgstr "Defekt oder andere Details"
+
+#. account/return.php:text_error
+msgid "The returns you requested could not be found!"
+msgstr "Die gewählte Rücksendung ist nicht vorhanden!"
+
+#. account/return.php:error_order_id
+msgid "Order ID required!"
+msgstr "Auftragsnummer ist erforderlich!"
+
+#. account/return.php:error_product
+msgid "Product Name must be greater than 3 and less than 255 characters!"
+msgstr "Produktname muss zwischen 3 und 255 Zeichen lang sein!"
+
+#. account/return.php:error_model
+msgid "Product Model must be greater than 3 and less than 64 characters!"
+msgstr "Artikelnummer muss zwischen 3 und 64 Zeichen lang sein!"
+
+#. account/return.php:error_reason
+msgid "You must select at a return product reason!"
+msgstr "Es muss ein Rücksendegrund angegeben werden!"
+
+#. account/reward.php:column_points
+msgid "Points"
+msgstr "Punkte"
+
+#. account/reward.php:text_total
+msgid "Your total number of reward points is:"
+msgstr "Summe Bonuspunkte"
+
+#. account/reward.php:text_empty
+msgid "You do not have any reward points!"
+msgstr "Keine Bonuspunkte vorhanden!"
+
+#. account/success.php:heading_title
+msgid "Your Account Has Been Created!"
+msgstr "Konto erfolgreich erstellt!"
+
+#. account/success.php:text_message
+#, possible-php-format
+msgid ""
+"<p>Congratulations! Your new account has been successfully created!</p> "
+"<p>You can now a member of %s affiliates.</p> <p>If you have ANY questions "
+"about the operation of this affiliate system, please email the store owner.</"
+"p> <p>A confirmation has been sent to the provided email address. If you "
+"have not received it within the hour, please <a href=\"%s\">contact us</a>.</"
+"p>"
+msgstr ""
+
+#. account/success.php:text_approval
+#, possible-php-format
+msgid ""
+"<p>Thank you for registering with %s!</p><p>You will be notified by email "
+"once your account has been activated by the store owner.</p><p>If you have "
+"ANY questions about the operation of this online shop, please <a href=\"%s"
+"\">contact the store owner</a>.</p>"
+msgstr ""
+
+#. account/voucher.php:heading_title
+msgid "Purchase a Gift Certificate"
+msgstr "Geschenkgutschein kaufen"
+
+#. account/voucher.php:text_voucher
+msgid "Gift Voucher"
+msgstr "Geschenkgutschein"
+
+#. account/voucher.php:text_description
+msgid ""
+"This gift certificate will be emailed to the recipient after your order has "
+"been paid for."
+msgstr "Der Geschenkgutschein wird nach erfolgreichem Kauf automatisch an den Empfänger per Email gesendet."
+
+#. account/voucher.php:text_agree
+msgid "I understand that gift certificates are non-refundable."
+msgstr "Ich vestehe dass Geschenkgutscheine nicht zurückgenommen werden können."
+
+#. account/voucher.php:text_message
+msgid ""
+"<p>Thank you for purchasing a gift certificate! Once you have completed your "
+"order your gift voucher recipient will be sent an email with details how to "
+"redeem their gift voucher.</p>"
+msgstr "<p>Danke für den Kauf eines Geschenkgutscheines. Nach Abschluss des Kaufvorgangs erhält der Empfänger Anweisungen zum Einlösen.</p>"
+
+#. account/voucher.php:entry_to_name
+msgid "Recipient's Name"
+msgstr "Name des Empfängers"
+
+#. account/voucher.php:entry_to_email
+msgid "Recipient's Email"
+msgstr "Email des Empfängers"
+
+#. account/voucher.php:entry_from_email
+msgid "Your Email"
+msgstr "Meine Emailadresse"
+
+#. account/voucher.php:entry_theme
+msgid "Gift Certificate Theme"
+msgstr "Thema"
+
+#. account/voucher.php:help_message
+msgid "Optional"
+msgstr ""
+
+#. account/voucher.php:help_amount
+#, possible-php-format
+msgid "Value must be between %s and %s"
+msgstr ""
+
+#. account/voucher.php:error_agree
+msgid "Warning: You must agree that the gift certificates are non-refundable!"
+msgstr "Hinweis: den Bedingungen zu Gutscheinen (keine Rücknahme) muss zugestimmt werden!"
+
+#. account/wishlist.php:heading_title
+msgid "My Wish List"
+msgstr "Meine Wunschliste"
+
+#. account/wishlist.php:text_wishlist
+#. common/header.php:text_wishlist
+#, possible-php-format
+msgid "Wish List (%s)"
+msgstr ""
+
+#. account/wishlist.php:text_login
+#, possible-php-format
+msgid ""
+"You must <a href=\"%s\">login</a> or <a href=\"%s\">create an account</a> to "
+"save <a href=\"%s\">%s</a> to your <a href=\"%s\">wish list</a>!"
+msgstr ""
+
+#. account/wishlist.php:text_success
+#, possible-php-format
+msgid ""
+"Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s\">wish "
+"list</a>!"
+msgstr ""
+
+#. account/wishlist.php:text_remove
+msgid "Success: You have modified your wishlist!"
+msgstr "Wunschliste wurde erfolgreich bearbeitet!"
+
+#. account/wishlist.php:text_empty
+msgid "Your wish list is empty."
+msgstr "Die Wunschliste ist leer."
+
+#. account/wishlist.php:column_stock
+msgid "Stock"
+msgstr "Lager"
+
+#. common/cart.php:text_cart
+msgid "View Cart"
+msgstr ""
+
+#. common/currency.php:text_currency
+msgid "Currency"
+msgstr ""
+
+#. common/footer.php:text_service
+msgid "Customer Service"
+msgstr "Kundendienst"
+
+#. common/footer.php:text_extra
+msgid "Extras"
+msgstr "Extras"
+
+#. common/footer.php:text_manufacturer
+msgid "Brands"
+msgstr "Hersteller"
+
+#. common/footer.php:text_voucher
+msgid "Gift Vouchers"
+msgstr "Geschenkgutscheine"
+
+#. common/footer.php:text_affiliate
+msgid "Affiliates"
+msgstr "Partner"
+
+#. common/footer.php:text_powered
+#, possible-php-format
+msgid ""
+"Powered By <a href=\"http://www.opencart.com\">OpenCart</a><br /> %s &copy; "
+"%s"
+msgstr ""
+
+#. common/header.php:text_home
+msgid "Home"
+msgstr "Start"
+
+#. common/header.php:text_all
+msgid "See All"
+msgstr ""
+
+#. common/language.php:text_language
+msgid "Language"
+msgstr ""
+
+#. common/maintenance.php:heading_title
+#. common/maintenance.php:text_maintenance
+msgid "Maintenance"
+msgstr "Wartung"
+
+#. common/maintenance.php:text_message
+msgid ""
+"<h1 style=\"text-align:center;\">We are currently performing some scheduled "
+"maintenance. <br/>We will be back as soon as possible. Please check back "
+"soon.</h1>"
+msgstr "<h2 style=\"text-align:center; color:#656565; text-transform:none; margin:30px;\">Um das Shoppingerlebnis zu verbessern werden die Seiten aktuell überarbeitet</h2><br/><h3>Wir sind in Kürze wieder Online - vielen Dank.</h3>"
