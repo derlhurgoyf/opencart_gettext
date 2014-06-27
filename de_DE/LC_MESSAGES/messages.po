@@ -1,16 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# This file is put in the public domain.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# OpenCart German translation.
+# This file has been imported from
+# http://www.opencart.com/index.php?route=extension/extension/info&extension_id=7937
+# by Cristian, 2014.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenCart 1.0\n"
-"Report-Msgid-Bugs-To: cristian@wente.dk\n"
 "POT-Creation-Date: 2014-06-27 05:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

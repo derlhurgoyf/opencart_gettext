@@ -1,9 +1,12 @@
 <?php
-
+$config = array(
+    "lang_dir" => "../upload/catalog/language/english",
+    "copyright_holder" => "\"Cristian\"",
+);
 require_once 'commonfuncs.php';
 
 @set_time_limit(9000);
-$indir = realpath("../upload/catalog/language/english").DIRECTORY_SEPARATOR;
+$indir = realpath($config['lang_dir']).DIRECTORY_SEPARATOR;
 $outdir = sys_get_temp_dir();
 $outdir = rtrim(rtrim($outdir, '/'),'\\').DIRECTORY_SEPARATOR.'i18n'.DIRECTORY_SEPARATOR;
 if(!file_exists($outdir)) mkdir($outdir, 0777, true);
@@ -38,11 +41,10 @@ $msgfmtcmd = "msgfmt --check --statistics -o";
 $localedir = realpath(__DIR__);
 $xgettextoptions = array(
     "language" => "PHP",
-    "copyright-holder" => "\"Cristian Wente <cristian@wente.dk>\"",
+    "copyright-holder" => $config['copyright_holder'],
     "foreign-user",
     "package-name" => "OpenCart",
     "package-version" => "1.0",
-    "msgid-bugs-address" => "cristian@wente.dk",
     "no-location",
     //"sort-by-file",
     "from-code" => "UTF-8",
