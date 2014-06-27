@@ -28,3 +28,4 @@ function delTree($dir) {
     }
     return rmdir($dir);
 }
+mb_internal_encoding("UTF-8");

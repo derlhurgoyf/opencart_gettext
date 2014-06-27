@@ -36,8 +36,7 @@ foreach ($infiles as $infile) {
 file_put_contents($outdir."infiles.list", implode("\n", glob_recursive($outdir."f".DIRECTORY_SEPARATOR."*.php")));
 
 
-$msgmergecmd = "msgmerge --silent --update --sort-by-file --verbose";
-$msgfmtcmd = "msgfmt --check --statistics -o";
+$msgmergecmd = "msgmerge --update --verbose";
 $localedir = realpath(__DIR__);
 $xgettextoptions = array(
     "language" => "PHP",
@@ -90,7 +89,7 @@ else {
 }
 echo "cleaning up\n";
 delTree($outdir);
-
+echo "Merging template to translated files\n";
 foreach (glob_recursive($localedir."/*.po") as $pofile) {
     $cmd = $msgmergecmd." ".$pofile." ".$localedir."/messages.pot";
     echo "######################################\n";
@@ -107,7 +106,6 @@ foreach (glob_recursive($localedir."/*.po") as $pofile) {
 	error($return);
     }
 }
-
 
 echo "\ndone\n";
 

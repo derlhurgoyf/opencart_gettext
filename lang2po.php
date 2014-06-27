@@ -1,8 +1,8 @@
 <?php
 $config = array(
-    "language_dir"  => "../upload/catalog/language/de_DE",
-    "language_file" => "de_DE.php",
-    "locale"	    => "de_DE",
+    "language_dir"  => "../upload/catalog/language/spanish",
+    "language_file" => "spanish.php",
+    "locale"	    => "es_ES",
 );
 
 
@@ -15,28 +15,57 @@ if (!is_dir($config['language_dir'])) {
     error("Language_dir does not exist:\n".$config['language_dir']);
 }
 $indir = realpath($config['language_dir']).DIRECTORY_SEPARATOR;
-if (!is_file($config['language_dir'].DIRECTORY_SEPARATOR.$config['language_file'])) {
-    error("Lang-file does not exist:\n".$config['language_dir'].DIRECTORY_SEPARATOR.$config['language_file']);
-}
 $langfile = realpath($config['language_dir'].DIRECTORY_SEPARATOR.$config['language_file']);
 $outfile = $config['locale']."/LC_MESSAGES/messages.po";
-
-$contents = file_get_contents("messages.pot");
+if (!is_dir(dirname($outfile))) {
+    mkdir(dirname($outfile),'0777',true);
+}
 $outdir = sys_get_temp_dir();
 $outdir = rtrim(rtrim($outdir, '/'),'\\').DIRECTORY_SEPARATOR.'i18n'.DIRECTORY_SEPARATOR;
+if(!file_exists($outdir)) {
+    mkdir($outdir, 0777, true);
+}
+
+
+$contents = file_get_contents("messages.pot");
 
 $infiles = glob_recursive($indir."*.php");
 foreach ($infiles as $infile) {
-    $dir = dirname(str_replace($indir,$outdir."f/",$infile)).DIRECTORY_SEPARATOR;
-    $tmpfile = $dir.basename($infile);
     $_ = array();
     require $infile;
     if ($infile == $langfile) {
 	$infile = str_replace(basename($infile), "language.php", $infile);
     }
     foreach ($_ as $key => $value) {
+	if (!mb_detect_encoding($value, "UTF-8", true)) {
+	    $value = utf8_encode($value);
+	}
+	$value = html_entity_decode($value, ENT_COMPAT|ENT_QUOTES ,"UTF-8");
 	$regex = "/(\n#\. ".preg_quote(str_replace($indir,'',$infile).":".$key, "//")."\s*\n(?:#[:\.] [^\n]*\n)*msgid \"[^\n]*\n(?:\"[^\n]*\n)*)msgstr \"\"/is";
 	$contents = preg_replace($regex,"\\1msgstr \"".str_replace('"', '\"', $value)."\"",$contents);
     }
 }
-file_put_contents($outfile, $contents);
+/*
+ * Merging is too risky
+if (is_file($outfile)) {
+    $pofile = $outdir.$config['locale'].".po";
+    //remove untranslated strings
+    $contents = preg_replace("/\n\s*\n(#[^\n]*\n)*msgid (\"[^\n]*\n)+msgstr \"\"/is","",$contents);
+    file_put_contents($pofile, $contents);
+    $msgmergecmd = "msgmerge --silent --verbose --previous --output-file=merged.po";
+    $cmd = $msgmergecmd." ".$pofile." ".$outfile;
+    echo "\nrunning $cmd \n";
+    echo syscall($cmd,$return);
+    if ($return) {
+	error($return);
+    }
+    exit;
+    copy($pofile, $outfile);
+    delTree($outdir);
+}
+else
+ */
+{
+    file_put_contents($outfile, $contents);
+}
+echo "done\n";
