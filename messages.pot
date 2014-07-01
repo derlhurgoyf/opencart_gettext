@@ -5,8 +5,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenCart 1.0\n"
-"POT-Creation-Date: 2014-06-27 05:01+0000\n"
+"Project-Id-Version: OpenCart 1.5.6.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-01 22:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -70,7 +71,7 @@ msgid "All Zones"
 msgstr ""
 
 #. language.php:text_pagination
-#, possible-php-format
+#, php-format
 msgid "Showing %d to %d of %d (%d Pages)"
 msgstr ""
 
@@ -245,7 +246,7 @@ msgid "View Google Map"
 msgstr ""
 
 #. language.php:error_exception
-#, possible-php-format
+#, php-format
 msgid "Error Code(%s): %s in %s on line %s"
 msgstr ""
 
@@ -734,12 +735,12 @@ msgid "Free Checkout"
 msgstr ""
 
 #. payment/klarna_account.php:text_title
-#, possible-php-format
+#, php-format
 msgid "Klarna Account - Pay from %s/month"
 msgstr ""
 
 #. payment/klarna_account.php:text_terms
-#, possible-php-format
+#, php-format
 msgid ""
 "<span id=\"klarna_account_toc\"></span><script type=\"text/javascript\">var "
 "terms = new Klarna.Terms.Account({el: 'klarna_account_toc', eid: '%s', "
@@ -790,12 +791,12 @@ msgid "Single Payment"
 msgstr ""
 
 #. payment/klarna_account.php:text_monthly_payment
-#, possible-php-format
+#, php-format
 msgid "%s - %s per month"
 msgstr ""
 
 #. payment/klarna_account.php:text_comment
-#, possible-php-format
+#, php-format
 msgid ""
 "Klarna's Invoice ID: %s\n"
 "%s/%s: %.4f"
@@ -893,7 +894,7 @@ msgid "Klarna Invoice - Pay within 14 days"
 msgstr ""
 
 #. payment/klarna_invoice.php:text_terms_fee
-#, possible-php-format
+#, php-format
 msgid ""
 "<span id=\"klarna_invoice_toc\"></span> (+%s)<script type=\"text/javascript"
 "\">var terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: "
@@ -901,7 +902,7 @@ msgid ""
 msgstr ""
 
 #. payment/klarna_invoice.php:text_terms_no_fee
-#, possible-php-format
+#, php-format
 msgid ""
 "<span id=\"klarna_invoice_toc\"></span><script type=\"text/javascript\">var "
 "terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: '%s', "
@@ -915,7 +916,7 @@ msgid ""
 msgstr ""
 
 #. payment/klarna_invoice.php:text_comment
-#, possible-php-format
+#, php-format
 msgid ""
 "Klarna's Invoice ID: %s. \n"
 "%s/%s: %.4f"
@@ -955,7 +956,7 @@ msgid "Paymate Transaction Failed"
 msgstr ""
 
 #. payment/paymate.php:text_failed_message
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Unfortunately there was an error processing your Paymate transaction.</"
 "p><p><b>Warning: </b>%s</p><p>Please verify your Paymate account balance "
@@ -978,7 +979,7 @@ msgstr ""
 
 #. payment/paypoint.php:heading_title
 #. payment/worldpay.php:heading_title
-#, possible-php-format
+#, php-format
 msgid "Thank you for shopping with %s .... "
 msgstr ""
 
@@ -997,7 +998,7 @@ msgstr ""
 
 #. payment/paypoint.php:text_success_wait
 #. payment/worldpay.php:text_success_wait
-#, possible-php-format
+#, php-format
 msgid ""
 "<b><span style=\"color: #FF0000\">Please wait...</span></b> whilst we finish "
 "processing your order.<br>If you are not automatically re-directed in 10 "
@@ -1011,7 +1012,7 @@ msgstr ""
 
 #. payment/paypoint.php:text_failure_wait
 #. payment/worldpay.php:text_failure_wait
-#, possible-php-format
+#, php-format
 msgid ""
 "<b><span style=\"color: #FF0000\">Please wait...</span></b><br>If you are "
 "not automatically re-directed in 10 seconds, please click <a href=\"%s"
@@ -1080,7 +1081,7 @@ msgstr ""
 #. payment/sagepay_direct.php:text_trial
 #. payment/sagepay_server.php:text_trial
 #. checkout/cart.php:text_trial
-#, possible-php-format
+#, php-format
 msgid "%s every %s %s for %s payments then "
 msgstr ""
 
@@ -1088,7 +1089,7 @@ msgstr ""
 #. payment/sagepay_direct.php:text_recurring
 #. payment/sagepay_server.php:text_recurring
 #. checkout/cart.php:text_recurring
-#, possible-php-format
+#, php-format
 msgid "%s every %s %s"
 msgstr ""
 
@@ -1100,7 +1101,7 @@ msgstr ""
 #. payment/sagepay_direct.php:text_length
 #. payment/sagepay_server.php:text_length
 #. checkout/cart.php:text_length
-#, possible-php-format
+#, php-format
 msgid " for %s payments"
 msgstr ""
 
@@ -1274,7 +1275,7 @@ msgstr ""
 
 #. payment/realex.php:text_link
 #. payment/sagepay_server.php:text_link
-#, possible-php-format
+#, php-format
 msgid "Please click <a href=\"%s\">here</a> to continue"
 msgstr ""
 
@@ -1507,7 +1508,7 @@ msgid "Choose an Existing Card"
 msgstr ""
 
 #. payment/sagepay_server.php:text_description
-#, possible-php-format
+#, php-format
 msgid "Items on %s Order No: %s"
 msgstr ""
 
@@ -1611,7 +1612,7 @@ msgstr ""
 #. product/manufacturer.php:text_compare
 #. product/search.php:text_compare
 #. product/special.php:text_compare
-#, possible-php-format
+#, php-format
 msgid "Product Compare (%s)"
 msgstr ""
 
@@ -1752,7 +1753,7 @@ msgstr ""
 
 #. product/compare.php:text_reviews
 #. product/search.php:text_reviews
-#, possible-php-format
+#, php-format
 msgid "Based on %s reviews."
 msgstr ""
 
@@ -1769,7 +1770,7 @@ msgid "Dimensions (L x W x H)"
 msgstr ""
 
 #. product/compare.php:text_success
-#, possible-php-format
+#, php-format
 msgid ""
 "Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s\">product "
 "comparison</a>!"
@@ -1816,12 +1817,12 @@ msgid "Available Options"
 msgstr ""
 
 #. product/product.php:text_minimum
-#, possible-php-format
+#, php-format
 msgid "This product has a minimum quantity of %s"
 msgstr ""
 
 #. product/product.php:text_reviews
-#, possible-php-format
+#, php-format
 msgid "%s reviews"
 msgstr ""
 
@@ -1830,7 +1831,7 @@ msgid "Write a review"
 msgstr ""
 
 #. product/product.php:text_login
-#, possible-php-format
+#, php-format
 msgid ""
 "Please <a href=\"%s\">login</a> or <a href=\"%s\">register</a> to review"
 msgstr ""
@@ -1872,21 +1873,21 @@ msgstr ""
 #. product/product.php:text_trial_description
 #. checkout/cart.php:text_trial_description
 #. checkout/checkout.php:text_trial_description
-#, possible-php-format
+#, php-format
 msgid "%s every %d %s(s) for %d payment(s) then"
 msgstr ""
 
 #. product/product.php:text_payment_description
 #. checkout/cart.php:text_payment_description
 #. checkout/checkout.php:text_payment_description
-#, possible-php-format
+#, php-format
 msgid "%s every %d %s(s) for %d payment(s)"
 msgstr ""
 
 #. product/product.php:text_payment_until_canceled_description
 #. checkout/cart.php:text_payment_until_canceled_description
 #. checkout/checkout.php:text_payment_until_canceled_description
-#, possible-php-format
+#, php-format
 msgid "%s every %d %s(s) until canceled"
 msgstr ""
 
@@ -1964,7 +1965,7 @@ msgid "Specification"
 msgstr ""
 
 #. product/product.php:tab_review
-#, possible-php-format
+#, php-format
 msgid "Reviews (%s)"
 msgstr ""
 
@@ -2104,7 +2105,7 @@ msgid "Enquiry"
 msgstr ""
 
 #. information/contact.php:email_subject
-#, possible-php-format
+#, php-format
 msgid "Enquiry %s"
 msgstr ""
 
@@ -2199,7 +2200,7 @@ msgstr ""
 
 #. checkout/cart.php:text_success
 #. account/order.php:text_success
-#, possible-php-format
+#, php-format
 msgid ""
 "Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s"
 "\">shopping cart</a>!"
@@ -2212,7 +2213,7 @@ msgid "Success: You have modified your shopping cart!"
 msgstr ""
 
 #. checkout/cart.php:text_login
-#, possible-php-format
+#, php-format
 msgid ""
 "Attention: You must <a href=\"%s\">login</a> or <a href=\"%s\">create an "
 "account</a> to view prices!"
@@ -2220,12 +2221,12 @@ msgstr ""
 
 #. checkout/cart.php:text_items
 #. common/cart.php:text_items
-#, possible-php-format
+#, php-format
 msgid "%s item(s) - %s"
 msgstr ""
 
 #. checkout/cart.php:text_points
-#, possible-php-format
+#, php-format
 msgid "Reward Points: %s"
 msgstr ""
 
@@ -2302,7 +2303,7 @@ msgstr ""
 #. checkout/cart.php:error_minimum
 #. api/cart.php:error_minimum
 #. api/order.php:error_minimum
-#, possible-php-format
+#, php-format
 msgid "Minimum order amount for %s is %s!"
 msgstr ""
 
@@ -2313,7 +2314,7 @@ msgstr ""
 #. api/payment.php:error_custom_field
 #. api/shipping.php:error_custom_field
 #. account/register.php:error_custom_field
-#, possible-php-format
+#, php-format
 msgid "%s required!"
 msgstr ""
 
@@ -2426,7 +2427,7 @@ msgstr ""
 #. affiliate/register.php:text_agree
 #. account/register.php:text_agree
 #. account/return.php:text_agree
-#, possible-php-format
+#, php-format
 msgid ""
 "I have read and agree to the <a href=\"%s\" class=\"agree\"><b>%s</b></a>"
 msgstr ""
@@ -2558,7 +2559,7 @@ msgid "Region / State"
 msgstr ""
 
 #. checkout/checkout.php:entry_newsletter
-#, possible-php-format
+#, php-format
 msgid "I wish to subscribe to the %s newsletter."
 msgstr ""
 
@@ -2567,7 +2568,7 @@ msgid "My delivery and billing addresses are the same."
 msgstr ""
 
 #. checkout/checkout.php:error_warning
-#, possible-php-format
+#, php-format
 msgid ""
 "There was a problem while trying to process your order! If the problem "
 "persists please try selecting a different payment method or you can contact "
@@ -2692,7 +2693,7 @@ msgstr ""
 #. affiliate/register.php:error_agree
 #. account/register.php:error_agree
 #. account/return.php:error_agree
-#, possible-php-format
+#, php-format
 msgid "Warning: You must agree to the %s!"
 msgstr ""
 
@@ -2708,7 +2709,7 @@ msgstr ""
 
 #. checkout/checkout.php:error_no_shipping
 #. checkout/shipping.php:error_no_shipping
-#, possible-php-format
+#, php-format
 msgid ""
 "Warning: No Shipping options are available. Please <a href=\"%s\">contact "
 "us</a> for assistance!"
@@ -2720,7 +2721,7 @@ msgid "Warning: Payment method required!"
 msgstr ""
 
 #. checkout/checkout.php:error_no_payment
-#, possible-php-format
+#, php-format
 msgid ""
 "Warning: No Payment options are available. Please <a href=\"%s\">contact us</"
 "a> for assistance!"
@@ -2740,6 +2741,7 @@ msgid "Enter your coupon here"
 msgstr ""
 
 #. checkout/coupon.php:error_coupon
+#. api/coupon.php:error_coupon
 msgid "Warning: Coupon is either invalid, expired or reached its usage limit!"
 msgstr ""
 
@@ -2752,7 +2754,7 @@ msgid "Failed Payment"
 msgstr ""
 
 #. checkout/failure.php:text_message
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>There was a problem processing your payment and the order did not "
 "complete.</p>\n"
@@ -2770,7 +2772,7 @@ msgid ""
 msgstr ""
 
 #. checkout/reward.php:heading_title
-#, possible-php-format
+#, php-format
 msgid "Use Reward Points (Available %s)"
 msgstr ""
 
@@ -2780,7 +2782,7 @@ msgid "Success: Your reward points discount has been applied!"
 msgstr ""
 
 #. checkout/reward.php:entry_reward
-#, possible-php-format
+#, php-format
 msgid "Points to use (Max %s)"
 msgstr ""
 
@@ -2791,13 +2793,13 @@ msgstr ""
 
 #. checkout/reward.php:error_points
 #. api/reward.php:error_points
-#, possible-php-format
+#, php-format
 msgid "Warning: You don't have %s reward points!"
 msgstr ""
 
 #. checkout/reward.php:error_maximum
 #. api/reward.php:error_maximum
-#, possible-php-format
+#, php-format
 msgid "Warning: The maximum number of points that can be applied is %s!"
 msgstr ""
 
@@ -2814,7 +2816,7 @@ msgid "Enter your destination to get a shipping estimate."
 msgstr ""
 
 #. checkout/success.php:text_customer
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Your order has been successfully processed!</p><p>You can view your order "
 "history by going to the <a href=\"%s\">my account</a> page and by clicking "
@@ -2825,7 +2827,7 @@ msgid ""
 msgstr ""
 
 #. checkout/success.php:text_guest
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Your order has been successfully processed!</p><p>Please direct any "
 "questions you have to the <a href=\"%s\">store owner</a>.</p><p>Thanks for "
@@ -3201,16 +3203,12 @@ msgstr ""
 msgid "Product can not be bought from the store you have choosen!"
 msgstr ""
 
-#. api/coupon.php:error_coupon
-msgid "Warning: Coupon is either invalid, expired or reached it's usage limit!"
-msgstr ""
-
 #. api/customer.php:text_success
 msgid "You have successfully modified customers"
 msgstr ""
 
 #. api/order.php:text_success
-msgid "You order has been successfully modified orders"
+msgid "You order has been successfully modified"
 msgstr ""
 
 #. api/order.php:error_customer
@@ -3281,7 +3279,7 @@ msgstr ""
 
 #. api/voucher.php:text_for
 #. account/voucher.php:text_for
-#, possible-php-format
+#, php-format
 msgid "%s Gift Certificate for %s"
 msgstr ""
 
@@ -3302,17 +3300,17 @@ msgstr ""
 
 #. api/voucher.php:error_amount
 #. account/voucher.php:error_amount
-#, possible-php-format
+#, php-format
 msgid "Amount must be between %s and %s!"
 msgstr ""
 
 #. mail/affiliate.php:text_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Affiliate Program"
 msgstr ""
 
 #. mail/affiliate.php:text_welcome
-#, possible-php-format
+#, php-format
 msgid "Thank you for joining the %s Affiliate Program!"
 msgstr ""
 
@@ -3392,27 +3390,27 @@ msgid "Order ID:"
 msgstr ""
 
 #. mail/affiliate.php:text_transaction_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Affiliate Commission"
 msgstr ""
 
 #. mail/affiliate.php:text_transaction_received
-#, possible-php-format
+#, php-format
 msgid "You have received %s commission!"
 msgstr ""
 
 #. mail/affiliate.php:text_transaction_total
-#, possible-php-format
+#, php-format
 msgid "Your total amount of commission is now %s."
 msgstr ""
 
 #. mail/customer.php:text_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Thank you for registering"
 msgstr ""
 
 #. mail/customer.php:text_welcome
-#, possible-php-format
+#, php-format
 msgid "Welcome and thank you for registering at %s!"
 msgstr ""
 
@@ -3444,12 +3442,12 @@ msgid "Last Name:"
 msgstr ""
 
 #. mail/forgotten.php:text_subject
-#, possible-php-format
+#, php-format
 msgid "%s - New Password"
 msgstr ""
 
 #. mail/forgotten.php:text_greeting
-#, possible-php-format
+#, php-format
 msgid "A new password was requested from %s."
 msgstr ""
 
@@ -3458,12 +3456,12 @@ msgid "Your new password is:"
 msgstr ""
 
 #. mail/order.php:text_new_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Order %s"
 msgstr ""
 
 #. mail/order.php:text_new_greeting
-#, possible-php-format
+#, php-format
 msgid ""
 "Thank you for your interest in %s products. Your order has been received and "
 "will be processed once payment has been confirmed."
@@ -3547,7 +3545,7 @@ msgid "Please reply to this email if you have any questions."
 msgstr ""
 
 #. mail/order.php:text_update_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Order Update %s"
 msgstr ""
 
@@ -3560,7 +3558,7 @@ msgid "Your order has been updated to the following status:"
 msgstr ""
 
 #. mail/review.php:text_subject
-#, possible-php-format
+#, php-format
 msgid "%s - Product Review"
 msgstr ""
 
@@ -3569,17 +3567,17 @@ msgid "You have a new product review waiting."
 msgstr ""
 
 #. mail/review.php:text_product
-#, possible-php-format
+#, php-format
 msgid "Product: %s"
 msgstr ""
 
 #. mail/review.php:text_reviewer
-#, possible-php-format
+#, php-format
 msgid "Reviewer: %s"
 msgstr ""
 
 #. mail/review.php:text_rating
-#, possible-php-format
+#, php-format
 msgid "Rating: %s"
 msgstr ""
 
@@ -3588,17 +3586,17 @@ msgid "Review Text:"
 msgstr ""
 
 #. mail/voucher.php:text_subject
-#, possible-php-format
+#, php-format
 msgid "You have been sent a gift voucher from %s"
 msgstr ""
 
 #. mail/voucher.php:text_greeting
-#, possible-php-format
+#, php-format
 msgid "Congratulations, You have received a Gift Certificate worth %s"
 msgstr ""
 
 #. mail/voucher.php:text_from
-#, possible-php-format
+#, php-format
 msgid "This Gift Certificate has been sent to you by %s"
 msgstr ""
 
@@ -3607,7 +3605,7 @@ msgid "With a message saying"
 msgstr ""
 
 #. mail/voucher.php:text_redeem
-#, possible-php-format
+#, php-format
 msgid ""
 "To redeem this Gift Certificate, write down the redemption code which is <b>"
 "%s</b> then click on the the link below and purchase the product you wish to "
@@ -3754,12 +3752,12 @@ msgid "Please choose the store you wish to visit."
 msgstr ""
 
 #. module/welcome.php:heading_title
-#, possible-php-format
+#, php-format
 msgid "Welcome to %s"
 msgstr ""
 
 #. total/coupon.php:text_coupon
-#, possible-php-format
+#, php-format
 msgid "Coupon (%s)"
 msgstr ""
 
@@ -3769,7 +3767,7 @@ msgstr ""
 
 #. total/credit.php:text_order_id
 #. total/reward.php:text_order_id
-#, possible-php-format
+#, php-format
 msgid "Order ID: #%s"
 msgstr ""
 
@@ -3786,7 +3784,7 @@ msgid "Low Order Fee"
 msgstr ""
 
 #. total/reward.php:text_reward
-#, possible-php-format
+#, php-format
 msgid "Reward Points (%s)"
 msgstr ""
 
@@ -3795,7 +3793,7 @@ msgid "Sub-Total"
 msgstr ""
 
 #. total/voucher.php:text_voucher
-#, possible-php-format
+#, php-format
 msgid "Voucher (%s)"
 msgstr ""
 
@@ -3893,7 +3891,7 @@ msgid "Affiliate Program"
 msgstr ""
 
 #. affiliate/login.php:text_description
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>%s affiliate program is free and enables members to earn revenue by "
 "placing a link or links on their web site which advertises %s or specific "
@@ -4015,7 +4013,7 @@ msgstr ""
 
 #. affiliate/register.php:text_account_already
 #. account/register.php:text_account_already
-#, possible-php-format
+#, php-format
 msgid ""
 "If you already have an account with us, please login at the <a href=\"%s"
 "\">login page</a>."
@@ -4036,7 +4034,7 @@ msgid "Your Affiliate Account Has Been Created!"
 msgstr ""
 
 #. affiliate/success.php:text_message
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Congratulations! Your new account has been successfully created!</p> "
 "<p>You can now take advantage of member privileges to enhance your online "
@@ -4047,7 +4045,7 @@ msgid ""
 msgstr ""
 
 #. affiliate/success.php:text_approval
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Thank you for registering for an affiliate account with %s!</p><p>You "
 "will be notified by email once your account has been activated by the store "
@@ -4056,7 +4054,7 @@ msgid ""
 msgstr ""
 
 #. affiliate/tracking.php:text_description
-#, possible-php-format
+#, php-format
 msgid ""
 "To make sure you get paid for referrals you send to us we need to track the "
 "referral by placing a tracking code in the URL's linking to us. You can use "
@@ -4098,7 +4096,7 @@ msgstr ""
 
 #. affiliate/transaction.php:column_amount
 #. account/transaction.php:column_amount
-#, possible-php-format
+#, php-format
 msgid "Amount (%s)"
 msgstr ""
 
@@ -4286,7 +4284,7 @@ msgid "Comment"
 msgstr ""
 
 #. account/order.php:error_reorder
-#, possible-php-format
+#, php-format
 msgid "%s is not currently available to be reordered."
 msgstr ""
 
@@ -4409,7 +4407,7 @@ msgid "Outstanding payment failed"
 msgstr ""
 
 #. account/recurring.php:error_not_cancelled
-#, possible-php-format
+#, php-format
 msgid "Error: %s"
 msgstr ""
 
@@ -4541,10 +4539,10 @@ msgid "Your Account Has Been Created!"
 msgstr ""
 
 #. account/success.php:text_message
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Congratulations! Your new account has been successfully created!</p> "
-"<p>You can now a member of %s affiliates.</p> <p>If you have ANY questions "
+"<p>You are now a member of %s affiliates.</p> <p>If you have ANY questions "
 "about the operation of this affiliate system, please email the store owner.</"
 "p> <p>A confirmation has been sent to the provided email address. If you "
 "have not received it within the hour, please <a href=\"%s\">contact us</a>.</"
@@ -4552,7 +4550,7 @@ msgid ""
 msgstr ""
 
 #. account/success.php:text_approval
-#, possible-php-format
+#, php-format
 msgid ""
 "<p>Thank you for registering with %s!</p><p>You will be notified by email "
 "once your account has been activated by the store owner.</p><p>If you have "
@@ -4606,7 +4604,7 @@ msgid "Optional"
 msgstr ""
 
 #. account/voucher.php:help_amount
-#, possible-php-format
+#, php-format
 msgid "Value must be between %s and %s"
 msgstr ""
 
@@ -4620,19 +4618,19 @@ msgstr ""
 
 #. account/wishlist.php:text_wishlist
 #. common/header.php:text_wishlist
-#, possible-php-format
+#, php-format
 msgid "Wish List (%s)"
 msgstr ""
 
 #. account/wishlist.php:text_login
-#, possible-php-format
+#, php-format
 msgid ""
 "You must <a href=\"%s\">login</a> or <a href=\"%s\">create an account</a> to "
 "save <a href=\"%s\">%s</a> to your <a href=\"%s\">wish list</a>!"
 msgstr ""
 
 #. account/wishlist.php:text_success
-#, possible-php-format
+#, php-format
 msgid ""
 "Success: You have added <a href=\"%s\">%s</a> to your <a href=\"%s\">wish "
 "list</a>!"
@@ -4679,7 +4677,7 @@ msgid "Affiliates"
 msgstr ""
 
 #. common/footer.php:text_powered
-#, possible-php-format
+#, php-format
 msgid ""
 "Powered By <a href=\"http://www.opencart.com\">OpenCart</a><br /> %s &copy; "
 "%s"

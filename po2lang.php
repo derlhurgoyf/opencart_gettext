@@ -25,6 +25,7 @@ foreach ($locales as $language => $locale) {
 	echo "Skipping $locale, no messages.po found\n";
 	continue;
     }
+    echo "Processing $locale\n";
     $contents = file_get_contents($infile);
 
     $translations = preg_split("/\n\s*\n(?=#)/is", $contents, -1, PREG_SPLIT_NO_EMPTY);
@@ -52,15 +53,18 @@ foreach ($locales as $language => $locale) {
 	    if (!is_dir(dirname($outfile))) {
 		mkdir(dirname($outfile), 0777, true);
 	    }
+	    if (!is_file(dirname($outfile).DIRECTORY_SEPARATOR."index.html")) {
+		touch(dirname($outfile).DIRECTORY_SEPARATOR."index.html");
+	    }
 	    if (is_file($outfile)) {
 		$langfile = file_get_contents($outfile);
 	    }
 	    else {
-		$langfile = "<?php\n//This file has been automatically created by po2lang.php";
+		$langfile = "<?php\n/*\n * This file has been automatically created by OpenCart_gettext\n * https://github.com/derlhurgoyf/opencart_gettext\n */\n";
 	    }
 	    $regex = "/\$_\[[\"\']".preg_quote($key, "\/")."[\"\']\]\s*=\s*(?:[^\"]|\\\")+\";/is";
 	    $langstring = "\$_['".$key."']".str_repeat(" ",max(0,25-strlen($key)))." = \"".  str_replace('"', '\\"', $msgstr)."\";";
-	    if (preg_match($regex, $langstring)) {
+	    if (preg_match(str_replace("  ","\\s+",$regex), $langstring)) {
 		$langfile = preg_replace($regex,$langstring,$langfile);
 	    }
 	    else {

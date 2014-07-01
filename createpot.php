@@ -37,13 +37,14 @@ file_put_contents($outdir."infiles.list", implode("\n", glob_recursive($outdir."
 
 
 $msgmergecmd = "msgmerge --update --verbose";
+$msgfmtcmd = "msgfmt --check --statistics -o";
 $localedir = realpath(__DIR__);
 $xgettextoptions = array(
     "language" => "PHP",
     "copyright-holder" => $config['copyright_holder'],
     "foreign-user",
     "package-name" => "OpenCart",
-    "package-version" => "1.0",
+    "package-version" => "1.5.6.4",
     "no-location",
     //"sort-by-file",
     "from-code" => "UTF-8",

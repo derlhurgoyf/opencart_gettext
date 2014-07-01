@@ -1,8 +1,8 @@
 <?php
 $config = array(
-    "language_dir"  => "../upload/catalog/language/spanish",
-    "language_file" => "spanish.php",
-    "locale"	    => "es_ES",
+    "language_dir"  => "language/language/de_DE",
+    "language_file" => "de_DE.php",
+    "locale"	    => "es_DE",
 );
 
 
