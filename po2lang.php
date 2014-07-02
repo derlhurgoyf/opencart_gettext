@@ -60,7 +60,12 @@ foreach ($locales as $language => $locale) {
 		$langfile = file_get_contents($outfile);
 	    }
 	    else {
-		$langfile = "<?php\n/*\n * This file has been automatically created by OpenCart_gettext\n * https://github.com/derlhurgoyf/opencart_gettext\n */\n";
+		$langfile = 
+			"<?php\n".
+			"/*\n".
+			" * This file has been automatically created by OpenCart_gettext\n".
+			" * https://github.com/derlhurgoyf/opencart_gettext\n".
+			" */\n";
 	    }
 	    $regex = "/\$_\[[\"\']".preg_quote($key, "\/")."[\"\']\]\s*=\s*(?:[^\"]|\\\")+\";/is";
 	    $langstring = "\$_['".$key."']".str_repeat(" ",max(0,25-strlen($key)))." = \"".  str_replace('"', '\\"', $msgstr)."\";";
