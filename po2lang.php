@@ -67,16 +67,22 @@ foreach ($locales as $language => $locale) {
 			" * https://github.com/derlhurgoyf/opencart_gettext\n".
 			" */\n";
 	    }
-	    $regex = "/\$_\[[\"\']".preg_quote($key, "\/")."[\"\']\]\s*=\s*(?:[^\"]|\\\")+\";/is";
+	    $regex = "/\\\$_\[[\"']".preg_quote($key, "\/")."[\"']\]\s*=\s*\"((?:[^\"]|\\\\\")+)\";/is";
 	    $langstring = "\$_['".$key."']".str_repeat(" ",max(0,25-strlen($key)))." = \"".  str_replace('"', '\\"', $msgstr)."\";";
-	    if (preg_match(str_replace("  ","\\s+",$regex), $langstring)) {
-		$langfile = preg_replace($regex,$langstring,$langfile);
+	    $changed = false;
+	    if (preg_match($regex, $langfile, $match)) {
+		if ($match[1] != str_replace('"', '\\"', $msgstr)) {
+		    $langfile = preg_replace($regex,$langstring,$langfile);
+		    $changed = true;
+		}
 	    }
 	    else {
 		$langfile .= "\n".$langstring;
+		$changed = true;
 	    }
-	    file_put_contents($outfile, $langfile);
+	    if ($changed) {
+		file_put_contents($outfile, $langfile);
+	    }
 	}
     }
-
 }

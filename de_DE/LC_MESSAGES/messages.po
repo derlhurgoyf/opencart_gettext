@@ -52,7 +52,7 @@ msgstr "."
 
 #. language.php:text_home
 msgid "<i class=\"fa fa-home\"></i>"
-msgstr "Startseite"
+msgstr "<i class=\"fa fa-home\"></i>"
 
 #. language.php:text_yes
 msgid "Yes"
